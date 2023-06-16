@@ -1,0 +1,54 @@
+// ALL HERO SECTIONS ===================================== //
+.hero {
+  height: $default-hero-height-sm; // 70rem
+  position: relative;
+  overflow: hidden;
+  background: {
+    size: cover;
+    position: center center;
+    repeat: no-repeat;
+  }
+
+  @include respond(md) {
+    height: $default-hero-height-md; // 90rem
+  }
+  @include respond(lg) {
+    height: $default-hero-height-lg; // 60rem
+  }
+  @include respond(xl) {
+    height: $default-hero-height-sm;
+  }
+
+  &__content {
+    .hero__intro {
+      font-family: $fancy-font-family;
+      font-size: 1.6rem;
+      margin-bottom: $default-margin;
+    }
+
+    h1 {
+      font-size: 4.5rem;
+    }
+
+    .hero__cta {
+      margin-top: 4rem;
+    }
+  }
+}
+
+// Second homepage
+
+.hero__content {
+  color: $white-color;
+}
+
+// Third homepage
+
+
+  .hero__content {
+    color: $white-color;
+    padding-top: 12rem;
+    position: relative;
+    z-index: 15;
+  }
+
