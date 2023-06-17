@@ -9,6 +9,7 @@ import sermon1 from '../assets/images/sermon-1@1.5x.jpg'
 import user1 from '../assets/images/user-1.jpg'
 import user2 from '../assets/images/user-2.jpg'
 import user3 from '../assets/images/user-3.jpg'
+import { Link } from 'react-router-dom'
 
 const BlogSingle = () => {
   return (
@@ -129,10 +130,10 @@ const BlogSingle = () => {
                 <div className="sidebar__widget">
                   <div className="share">
                     <span>Share</span>
-                    <a href="" title="Share it on Facebook"><i className="ri-facebook-line"></i></a>
-                    <a href="" title="Share it on LinkedIn"><i className="ri-linkedin-line"></i></a>
-                    <a href="" title="Share it on Twitter"><i className="ri-twitter-line"></i></a>
-                    <a href="" title="Email it"><i className="ri-mail-line"></i></a>
+                    <Link href="" title="Share it on Facebook"><i className="ri-facebook-line"></i></Link>
+                    <Link href="" title="Share it on LinkedIn"><i className="ri-linkedin-line"></i></Link>
+                    <Link href="" title="Share it on Twitter"><i className="ri-twitter-line"></i></Link>
+                    <Link href="" title="Email it"><i className="ri-mail-line"></i></Link>
                   </div>
                 </div>
                 <div className="sidebar__widget">
@@ -291,7 +292,7 @@ const BlogSingle = () => {
                   quaerat vero aliquid sunt fugiat nisi!</p>
 
               </div>
-              <div className="comments__reply--link"><a href="#" className="uppercase bold">Reply</a></div>
+              <div className="comments__reply--link"><Link href="#" className="uppercase bold">Reply</Link></div>
 
              
               <div className="comments__box comments__box--reply">
@@ -309,7 +310,7 @@ const BlogSingle = () => {
 
                 </div>
 
-                <div className="comments__reply--link"><a href="#" className="uppercase bold">Reply</a></div>
+                <div className="comments__reply--link"><Link href="#" className="uppercase bold">Reply</Link></div>
 
               </div>
 
@@ -333,7 +334,7 @@ const BlogSingle = () => {
 
               </div>
 
-              <div className="comments__reply--link"><a href="#" className="uppercase bold">Reply</a></div>
+              <div className="comments__reply--link"><Link href="#" className="uppercase bold">Reply</Link></div>
 
             </div>
 

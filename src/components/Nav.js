@@ -1,19 +1,19 @@
 import React from 'react'
-import LogoLight from '../assets/images/logo-light.png'
+import LogoLight from '../assets/images/church logo.png'
 import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
     <div>
        <header className="header transparent fixed light-text" data-onscroll-classes="dark-text white-bg"
-      data-onscroll-logo="images/logo-dark.png">
+      data-onscroll-logo={LogoLight}>
 
       <div className="container">
 
         <nav className="header__nav bottom-nav">
 
           <div className="header__logo brand--logo">
-            <Link to={'/'}><img src={LogoLight} alt="Greater Love Church" /></Link>
+            <Link to={'/'}><img src={LogoLight} style={{ width:'50px'}} alt="Greater Love Church" /></Link>
           </div>
 
           <div className="header__mobile--opener hide-on-lg">

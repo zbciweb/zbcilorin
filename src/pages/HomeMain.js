@@ -238,7 +238,7 @@ const HomeMain = () => {
                   className="card__image ministry__image"/>
               </div>
 
-              <div class="card__footer">
+              <div className="card__footer">
 
                 <div className="ministry__title">
                   <h3>Children's ministry</h3>

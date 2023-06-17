@@ -5,6 +5,7 @@ import TimeLocation from '../components/TimeLocation'
 import post1 from '../assets/images/post-1@1.5x.jpg'
 import post2 from '../assets/images/post-2@1.5x.jpg'
 import sermon1 from '../assets/images/sermon-1@1.5x.jpg'
+import { Link } from 'react-router-dom'
 
 const Blog = () => {
   return (
@@ -331,11 +332,11 @@ const Blog = () => {
 
           <div className="pagination">
 
-            <span className="pagination__arrow"><a href=""><i className="ri-arrow-left-s-line"></i></a></span>
-            <span className="pagination__number"><a href="">1</a></span>
-            <span className="pagination__number active"><a href="">2</a></span>
-            <span className="pagination__number"><a href="">3</a></span>
-            <span className="pagination__arrow"><a href=""><i className="ri-arrow-right-s-line"></i></a></span>
+            <span className="pagination__arrow"><Link href=""><i className="ri-arrow-left-s-line"></i></Link></span>
+            <span className="pagination__number"><Link href="">1</Link></span>
+            <span className="pagination__number active"><Link href="">2</Link></span>
+            <span className="pagination__number"><Link href="">3</Link></span>
+            <span className="pagination__arrow"><Link href=""><i className="ri-arrow-right-s-line"></i></Link></span>
 
           </div>
 

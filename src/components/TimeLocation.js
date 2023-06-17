@@ -44,7 +44,7 @@ const TimeLocation = () => {
 
 </div>
 
-<div className="time-location__map"><iframe
+<div className="time-location__map"><iframe title="map"
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.500392314035!2d-73.76198333429348!3d42.650750424686215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de0a3cdc54f8b3%3A0x369f717b85d43cfc!2sMadison%20Ave%20%26%20Empire%20State%20Plaza!5e0!3m2!1sen!2sus!4v1583133727681!5m2!1sen!2sus"
     style={{border:"0"}} allowFullScreen=''></iframe></div>
 

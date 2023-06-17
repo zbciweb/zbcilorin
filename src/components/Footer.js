@@ -1,10 +1,11 @@
 import React from 'react'
-import logo from '../assets/images/logo-sm.png'
+import logo from '../assets/images/church logo.png'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <div>
+      <div className="scroll-to-top"><i className="ri-arrow-up-line"></i></div>
       <footer className="footer">
 
 <div className="container">
@@ -31,7 +32,7 @@ const Footer = () => {
 
       <div className="flex-md-6 flex-lg-4">
 
-        <div className="footer__info credit">Template designed and developed by Blazythemes</div>
+        <div className="footer__info credit">Zion Baptist Church Ilorin, Adewole</div>
 
       </div>
 
@@ -39,10 +40,10 @@ const Footer = () => {
 
         <div className="footer__info social">
           <span>Follow us on social medias</span>
-          <div class="social__icons">
-            <Link href=""><i class="ri-facebook-line"></i></Link>
-            <Link href=""><i class="ri-twitter-line"></i></Link>
-            <Link href=""><i class="ri-linkedin-line"></i></Link>
+          <div className="social__icons">
+            <Link href=""><i className="ri-facebook-line"></i></Link>
+            <Link href=""><i className="ri-twitter-line"></i></Link>
+            <Link href=""><i className="ri-linkedin-line"></i></Link>
           </div>
         </div>
 

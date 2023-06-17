@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Nav from '../components/Nav'
 import TimeLocation from '../components/TimeLocation'
+import { Link } from 'react-router-dom'
 
 const Donations = () => {
   return (
@@ -295,7 +296,7 @@ const Donations = () => {
             </div>
 
             <div className="paypal-link">
-              <a href="" className="button" target="_blank">Complete your donation on PayPal</a>
+              <Link href="" className="button" target="_blank">Complete your donation on PayPal</Link>
             </div>
 
           </form>

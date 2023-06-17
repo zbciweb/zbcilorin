@@ -106,6 +106,7 @@ export const router = createBrowserRouter(
         <>
         <Route path='/' element={<Root/>}>
             <Route index element={<Home/>}/>
+            
         </Route>
         <Route path='/about' element={<RootAbout/>}>
             <Route index element={<About/>}/>

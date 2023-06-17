@@ -8,6 +8,7 @@ import event1 from '../assets/images/event-1@1.5x.jpg'
 import post2 from '../assets/images/post-2@1.5x.jpg'
 import staff1 from '../assets/images/staff-1@1.5x.jpg'
 import gallery1 from '../assets/images/gallery-1@1.5x.jpg'
+import { Link } from 'react-router-dom'
 
 const Elements = () => {
   return (
@@ -43,15 +44,15 @@ const Elements = () => {
           <h2>Buttons</h2>
 
           <div className="mar-b-sm">
-            <a href="" className="button">Default button</a>
+            <Link href="" className="button">Default button</Link>
           </div>
 
           <div className="mar-b-sm">
-            <a href="" className="button button--link">Button link <i className="ri-arrow-right-line"></i></a>
+            <Link href="" className="button button--link">Button link <i className="ri-arrow-right-line"></i></Link>
           </div>
 
           <div>
-            <a href="" className="button button-block-sm">Button block</a>
+            <Link href="" className="button button-block-sm">Button block</Link>
           </div>
 
         </div>
@@ -77,7 +78,7 @@ const Elements = () => {
               <nav className="header__nav bottom-nav">
 
                 <div className="header__logo brand--logo">
-                  <a href=""><img src={logo} alt="Greater Love Church"/></a>
+                  <Link href=""><img src={logo} alt="Greater Love Church"/></Link>
                 </div>
 
                 <div className="header__mobile--opener hide-on-lg">
@@ -93,40 +94,40 @@ const Elements = () => {
 
                   <div className="header__extra">
                     <div className="cta">
-                      <a href="" className="button button-block-sm">Button</a>
+                      <Link href="" className="button button-block-sm">Button</Link>
                     </div>
                   </div>
 
-                  <li className="header__list active"><a href="">Link</a></li>
+                  <li className="header__list active"><Link href="">Link</Link></li>
 
                   <li className="header__list">
-                    <a href="" className="dropdown-link">Dropdown link</a>
+                    <Link href="" className="dropdown-link">Dropdown link</Link>
 
                     <div className="header__submenu">
                       <ul>
 
-                        <li className="header__list"><a href="">Dropdown link</a></li>
-                        <li className="header__list"><a href="">Dropdown link</a></li>
+                        <li className="header__list"><Link href="">Dropdown link</Link></li>
+                        <li className="header__list"><Link href="">Dropdown link</Link></li>
 
                       </ul>
 
                     </div>
                   </li>
                   <li className="header__list">
-                    <a href="" className="dropdown-link">Another dropdown</a>
+                    <Link href="" className="dropdown-link">Another dropdown</Link>
 
                     <div className="header__submenu">
                       <ul>
 
-                        <li className="header__list"><a href="">Dropdown link</a></li>
+                        <li className="header__list"><Link href="">Dropdown link</Link></li>
 
                         <li className="header__list">
-                          <a href="" className="dropdown-link">Dropdown with dropdown</a>
+                          <Link href="" className="dropdown-link">Dropdown with dropdown</Link>
 
                           <div className="header__submenu">
                             <ul>
-                              <li className="header__list"><a href="">Extra dropdown</a></li>
-                              <li className="header__list"><a href="">Extra dropdown</a></li>
+                              <li className="header__list"><Link href="">Extra dropdown</Link></li>
+                              <li className="header__list"><Link href="">Extra dropdown</Link></li>
                             </ul>
                           </div>
 
@@ -136,9 +137,9 @@ const Elements = () => {
                     </div>
                   </li>
 
-                  <li className="header__list"><a href="">Link</a></li>
+                  <li className="header__list"><Link href="">Link</Link></li>
 
-                  <li className="header__list"><a href="">Link</a></li>
+                  <li className="header__list"><Link href="">Link</Link></li>
 
                 </ul>
 
@@ -146,14 +147,14 @@ const Elements = () => {
                   <div className="shopping-cart">
 
                     <div className="bag">
-                      <a href=""><i className="ri-shopping-bag-line"></i>
-                        <span className="full"></span></a>
+                      <Link href=""><i className="ri-shopping-bag-line"></i>
+                        <span className="full"></span></Link>
                     </div>
 
                   </div>
 
                   <div className="cta hide-on-sm show-on-lg">
-                    <a href="" className="button">Button</a>
+                    <Link href="" className="button">Button</Link>
                   </div>
                 </div>
 
@@ -172,11 +173,11 @@ const Elements = () => {
 
             <div className="pagination">
 
-              <span className="pagination__arrow"><a href=""><i className="ri-arrow-left-s-line"></i></a></span>
-              <span className="pagination__number"><a href="">1</a></span>
-              <span className="pagination__number active"><a href="">2</a></span>
-              <span className="pagination__number"><a href="">3</a></span>
-              <span className="pagination__arrow"><a href=""><i className="ri-arrow-right-s-line"></i></a></span>
+              <span className="pagination__arrow"><Link href=""><i className="ri-arrow-left-s-line"></i></Link></span>
+              <span className="pagination__number"><Link href="">1</Link></span>
+              <span className="pagination__number active"><Link href="">2</Link></span>
+              <span className="pagination__number"><Link href="">3</Link></span>
+              <span className="pagination__arrow"><Link href=""><i className="ri-arrow-right-s-line"></i></Link></span>
 
             </div>
 
@@ -186,7 +187,7 @@ const Elements = () => {
             <h3>Breadcrumbs</h3>
 
             <div className="breadcrumb">
-              <div className="breadcrumb__home--link"><a href="">Home</a></div>
+              <div className="breadcrumb__home--link"><Link href="">Home</Link></div>
               <span></span>
               <div className="breadcrumb__current--page-link">Elements</div>
             </div>
@@ -194,9 +195,9 @@ const Elements = () => {
             <div className="mar-b-sm mar-t-sm"></div>
 
             <div className="breadcrumb">
-              <div className="breadcrumb__home--link"><a href="">Home</a></div>
+              <div className="breadcrumb__home--link"><Link href="">Home</Link></div>
               <span></span>
-              <div><a href="">Pages</a></div>
+              <div><Link href="">Pages</Link></div>
               <span></span>
               <div className="breadcrumb__current--page-link">Elements</div>
             </div>
@@ -251,14 +252,14 @@ const Elements = () => {
                   </div>
 
                   <div className="sermon__link">
-                    <a href="" className="button">Read more</a>
+                    <Link href="" className="button">Read more</Link>
                   </div>
 
                   <div className="sermon__download">
                     <span className="text-white">Download</span>
-                    <a href=""><i className="ri-video-line"></i></a>
-                    <a href=""><i className="ri-headphone-line"></i></a>
-                    <a href=""><i className="ri-file-pdf-line"></i></a>
+                    <Link href=""><i className="ri-video-line"></i></Link>
+                    <Link href=""><i className="ri-headphone-line"></i></Link>
+                    <Link href=""><i className="ri-file-pdf-line"></i></Link>
                   </div>
                 </div>
 
@@ -288,7 +289,7 @@ const Elements = () => {
                     <div className="excerpt">
                       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint culpa totam laborum.</p>
                     </div>
-                    <div className="ministry__link"><a href="" className="button">Learn more</a></div>
+                    <div className="ministry__link"><Link href="" className="button">Learn more</Link></div>
                   </div>
 
                 </div>
@@ -323,7 +324,7 @@ const Elements = () => {
                     <h2>Scholarship fundraiser @GLC</h2>
                   </div>
 
-                  <div className="event__link"><a href="" className="button">Learn more</a></div>
+                  <div className="event__link"><Link href="" className="button">Learn more</Link></div>
 
                 </div>
 
@@ -360,7 +361,7 @@ const Elements = () => {
                       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis excepturi sunt doloribus
                         consequuntur eveniet nostrum dicta, voluptate enim rem voluptatem.</p>
                     </div>
-                    <div className="blog__link"><a href="" className="button">Read more</a></div>
+                    <div className="blog__link"><Link href="" className="button">Read more</Link></div>
                   </div>
 
                 </div>
@@ -384,7 +385,7 @@ const Elements = () => {
                     <h3>Walter L. Brown</h3>
                   </div>
                   <div className="staff__title">Assistant pastor</div>
-                  <div className="staff__link"><a href="" className="button">Learn more</a></div>
+                  <div className="staff__link"><Link href="" className="button">Learn more</Link></div>
 
                 </div>
 

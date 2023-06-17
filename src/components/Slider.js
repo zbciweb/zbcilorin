@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -7,7 +7,7 @@ import hero1 from "../assets/images/hero-1.jpg";
 import hero2 from "../assets/images/hero-2.jpg";
 
 const Sliders = () => {
-  const [products, setProducts] = useState([]);
+
 
   const content = [
     {
@@ -26,9 +26,7 @@ const Sliders = () => {
     },
   ];
 
-  useEffect(() => {
-    setProducts(content);
-  }, []);
+
 
   let settings = {
     dots: true,
@@ -44,7 +42,7 @@ const Sliders = () => {
     <section className="hero full-width">
       <div>
         <Slider {...settings}>
-          {products.map((item, index) => {
+          {content.map((item, index) => {
             return (
               <div className="hero full-width" key={index}>
                 <img
