@@ -392,7 +392,7 @@
 .header {
   // Deals with transparency
   &.transparent {
-    background-color: transparent;
+    background-color: #000000d4;
     @include transition;
   }
 

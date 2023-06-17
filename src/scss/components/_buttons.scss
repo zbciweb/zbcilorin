@@ -9,6 +9,7 @@ button[type="submit"] {
   cursor: pointer;
   color: $white-color;
   background-color: $accent-color;
+  border-radius: 5px;
   @include border($color: transparent);
   @include transition;
 
@@ -17,7 +18,8 @@ button[type="submit"] {
   }
 
   &:hover {
-    color: $white-color;
+    color:$black-color;
+
     background-color: $hover-active-color;
   }
 
