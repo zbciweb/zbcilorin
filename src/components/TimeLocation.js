@@ -23,15 +23,17 @@ const TimeLocation = () => {
           <div className="info">
             <div className="day bold">Sunday:</div>
             <div className="time">
-              <span>9:00 am - 10:30 am (Sunday school)</span>
-              <span>11:00 am - 1:30 pm (Morning service)</span>
-              <span>4:00 pm - 5:30 pm (Evening service)</span>
+              <span>8:00 am (Pre-Service Intercessors' Prayer Meeting)</span>
+              <span>8:00 am - 9:30 am (First (Youth) Worship Service)</span>
+              <span>9:30 am - 10:30 am (Sunday school)</span>
+              <span>10:30 am - 12:00 pm (Second Worship Service)</span>
+              <span>5:00 pm (Home Fellowship: Last Two Sundays of Every Month)</span>
             </div>
           </div>
 
           <div className="info">
             <div className="location bold">Location:</div>
-            <div className="location-info"><span>123 Jay St, Albany, NY 12203</span></div>
+            <div className="location-info"><span>Benin City Road, Adewole Housing Estate, P.O. Box 2480, Ilorin</span></div>
           </div>
 
         </div>

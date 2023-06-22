@@ -1,10 +1,10 @@
 import React from "react";
-import logo from "../assets/images/church logo.png";
+import logo from "../assets/images/mixlr-logo-9336.svg";
 import { Link } from "react-router-dom";
 
+
 const Footer = () => {
-  const miracle = {page1: "sermons",
-}
+
   return (
     <div>
       <div className="scroll-to-top">
@@ -15,37 +15,43 @@ const Footer = () => {
           <div className="footer__top display-flex justify-align-center">
             <div className="footer__logo">
               <div className="logo-wrapper">
-                <img src={logo} alt="Small logo" />
+              
               </div>
             </div>
           </div>
 
           <div className="footer__bottom">
             <div className="row align-items-center">
-              <div className="flex-md-6 flex-lg-4">
+              <div className="flex-md-6 flex-lg-5">
                 <div className="footer__info copyright">
-                  &copy; {new Date().getFullYear()} - ZBCI - All Rights Reserved
+                  &copy; {new Date().getFullYear()} - Zion Baptist Church, Adewole, Ilorin - All Rights Reserved
+                </div>
+                <div className="footer__info copyright">
+                  Designed by Public Relations Unit, ZBCI MEDIA
                 </div>
               </div>
 
-              <div className="flex-md-6 flex-lg-4">
+              <div className="flex-md-6 flex-lg-2">
                 <div className="footer__info credit">
-                 Zion Baptist Church, Adewole, Ilorin
+                
                 </div>
               </div>
 
-              <div className="flex-md-6 flex-lg-4">
+              <div className="flex-md-8 flex-lg-5">
                 <div className="footer__info social">
-                  <span>Follow us on social medias</span>
+                  <span>Follow us on all our social media platforms</span>
                   <div className="social__icons">
-                    <Link to="/">
-                      <i className="ri-facebook-line"></i>
+                  <a href="web.facebook.com/zbcipage" target="_blank" rel="noopener noreferrer">
+                      <i className="ri-facebook-line"></i>        
+                    </a>
+                    <Link to="/about">
+                      <img className="" src={logo} alt="" />
                     </Link>
                     <Link to="/about">
-                      <i className="ri-twitter-line"></i>
+                      <i className="ri-youtube-line" ></i>
                     </Link>
-                    <Link to={`/${miracle.page1}`}>
-                      <i className="ri-linkedin-line"></i>
+                    <Link to='/'>
+                      <i className="ri-instagram-line"></i>
                     </Link>
                   </div>
                 </div>
