@@ -1,41 +1,38 @@
-# Getting Started with Create React App
+# Work done so far as at 23/6/2023
+I newer components, i added an extra folder called Utils. The Utils allows us to have reusable items for our components. Currently, i have galleryImages.js which is to cater for all gallery images. I have ministries.js which allows us to cater for all ministries.js, then the pastoral&diaconates.js caters for pastors&diaconates in the about us page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+I also removed nav and footer from all the pages. I used a single nav and footer wrapper for all pages
 
-In the project directory, you can run:
 
-### `npm start`
+Further, i added newer components
+1. /Gallery.js
+2. About/pastorsandDiaconates.jsx
+3. Few Edition on the footer component. Component now has some of the church programs and the map tp the church
+ 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+The following are the pages i have worked on
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Route index`
+Gave nav and footer wrapper for all pages
 
-### `npm run build`
+### `Home`
+imported a gallery component. This would enable us to reuse the gallery component for the page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `About`
+imported the pastoranddiaconate component to fill the pastors and diaconate page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### `Ministries`
+imported the ministries component to fill the pastors and diaconate page
+Added links to the individual ministries
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `Contact`
+Changed the width of the contact us form to 8-col instead of 12
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
+### `Other Change`
+Please check through the pages, i mght have ommitted some of the chages made

@@ -44,7 +44,7 @@ const Footer = () => {
                     <Link to="/about">
                       <i className="ri-twitter-line"></i>
                     </Link>
-                    <Link to={`/${miracle.page1}`}>
+                    <Link to={`/sermons/${miracle.page1}`}>
                       <i className="ri-linkedin-line"></i>
                     </Link>
                   </div>

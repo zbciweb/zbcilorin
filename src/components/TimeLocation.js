@@ -1,57 +1,70 @@
-import React from 'react'
+import React from "react";
 
 const TimeLocation = () => {
   return (
     <div>
-      <section className="time-location background-lighter-gray">
+      <section className="time-location background-lighter-gray" id="worshiptime">
+        <div className="container">
+          <div className="row">
+            <div className="flex-lg-6">
+              <div className="time-location__content default-section-spacing">
+                <div className="section-heading">
+                  <span>Time and location</span>
+                  <h2>Come and worship with us</h2>
+                </div>
+                <div className="row mar-b-sm">
+                  <div className="flex-lg-6">
+                    <div className="time-location__time">
+                      <div className="day bold">Sunday</div>
+                      <div className="info">
+                        <div className="time">
+                          <span>8:00am First (Youth) Worship Service</span>
+                          <span>9:30am Sunday School</span>
+                          <span>10:30am Second Worship Service</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-<div className="container">
+                  <div className="flex-lg-6">
+                    <div className="time-location__time">
+                      <div className="day bold">Wednesday</div>
+                      <div className="info">
+                        <div className="time">
+                          <span>5:00pm Miracle Prayer Service</span>
+                          <span>5:00pm Home Fellowship Leaders' Briefing</span>
+                          <span>
+                            5:00pm Fasting & Prayer Meeting: FIrst Wed. of every
+                            month
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-  <div className="row">
-
-    <div className="flex-lg-6">
-
-      <div className="time-location__content default-section-spacing">
-
-        <div className="section-heading">
-          <span>Time and location</span>
-          <h2>Come and worship with us</h2>
-        </div>
-
-        <div className="time-location__time">
-
-          <div className="info">
-            <div className="day bold">Sunday:</div>
-            <div className="time">
-              <span>9:00 am - 10:30 am (Sunday school)</span>
-              <span>11:00 am - 1:30 pm (Morning service)</span>
-              <span>4:00 pm - 5:30 pm (Evening service)</span>
+                <div className="info">
+                  <div className="location bold">Location:</div>
+                  <div className="location-info">
+                    <span>Zion Baptist Church, Adewole Estate, Ilorin</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-
-          <div className="info">
-            <div className="location bold">Location:</div>
-            <div className="location-info"><span>123 Jay St, Albany, NY 12203</span></div>
-          </div>
-
         </div>
 
-      </div>
-
+        <div className="time-location__map">
+          <iframe
+            title="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1973.1003827093016!2d4.5098515344130075!3d8.479850074696115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1036533eea699211%3A0x542d834f3a4aa83a!2sZion%20Baptist%20Church%2C%20Adewole%20Ilorin!5e0!3m2!1sen!2sng!4v1687228783808!5m2!1sen!2sng"
+            style={{ border: "0" }}
+            allowFullScreen=""
+          ></iframe>
+        </div>
+      </section>
     </div>
+  );
+};
 
-  </div>
-
-</div>
-
-<div className="time-location__map"><iframe title="map"
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.500392314035!2d-73.76198333429348!3d42.650750424686215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de0a3cdc54f8b3%3A0x369f717b85d43cfc!2sMadison%20Ave%20%26%20Empire%20State%20Plaza!5e0!3m2!1sen!2sus!4v1583133727681!5m2!1sen!2sus"
-    style={{border:"0"}} allowFullScreen=''></iframe></div>
-
-
-</section>
-    </div>
-  )
-}
-
-export default TimeLocation
+export default TimeLocation;

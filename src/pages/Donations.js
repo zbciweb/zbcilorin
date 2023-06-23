@@ -1,13 +1,11 @@
-import React from 'react'
-import Footer from '../components/Footer'
-import Nav from '../components/Nav'
+import React from 'react' 
 import TimeLocation from '../components/TimeLocation'
 import { Link } from 'react-router-dom'
 
 const Donations = () => {
   return (
     <div>
-      <Nav/>
+    
       <main>
       <section className="banner full-width">
 
@@ -308,7 +306,7 @@ const Donations = () => {
       <TimeLocation/>
 
     </main>
-      <Footer/>
+     
     </div>
   )
 }

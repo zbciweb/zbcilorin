@@ -1,6 +1,4 @@
-import React from 'react'
-import Footer from '../components/Footer'
-import Nav from '../components/Nav'
+import React from 'react' 
 import TimeLocation from '../components/TimeLocation'
 import single from '../assets/images/single.jpg'
 import sermon1 from '../assets/images/sermon-1@1.5x.jpg'
@@ -10,7 +8,7 @@ import { Link } from 'react-router-dom'
 const EventsSingle = () => {
   return (
     <div>
-      <Nav/>
+   
       <main>
       <section className="banner full-width">
 
@@ -209,7 +207,7 @@ const EventsSingle = () => {
       <TimeLocation/>
 
     </main>
-      <Footer/>
+   
     </div>
   )
 }
