@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import LogoLight from '../assets/images/church logo.png'
 import { Link } from 'react-router-dom'
 
 const Nav = () => {
+ 
   return (
     <div>
        <header className="header transparent fixed light-text" data-onscroll-classes="dark-text white-bg"
@@ -45,8 +46,7 @@ const Nav = () => {
               <div className="header__submenu">
                 <ul>
 
-                  <li className="header__list"><Link to={'/sermons'} >Sermons</Link></li>
-                  <li className="header__list"><Link to={'/sermons/sermons-single'} >Sermons single</Link></li>
+                  <li className="header__list"><Link to={'/sermons'} >Sermons</Link></li> 
 
                 </ul>
 
@@ -59,8 +59,7 @@ const Nav = () => {
               <div className="header__submenu">
                 <ul>
 
-                  <li className="header__list"><Link to={'/ministries'}>Ministries</Link></li>
-                  <li className="header__list"><Link to={'/ministries/ministries-singles'}>Ministries single</Link></li>
+                  <li className="header__list"><Link to={'/ministries'}>Ministries</Link></li> 
 
                 </ul>
               </div>
@@ -72,14 +71,13 @@ const Nav = () => {
               <div className="header__submenu">
                 <ul>
 
-                  <li className="header__list"><Link to={'/events'}>Events</Link></li>
-                  <li className="header__list"><Link to={'/events/events-single'}>Events single</Link></li>
+                  <li className="header__list"><Link to={'/events'}>Events</Link></li> 
 
                 </ul>
               </div>
             </li>
 
-            <li className="header__list">
+            {/* <li className="header__list">
               <Link href="" className="dropdown-link">Pages</Link>
 
               <div className="header__submenu">
@@ -87,11 +85,11 @@ const Nav = () => {
 
                   <li className="header__list"><Link to={'/donations'}>Donations</Link></li>
                   <li className="header__list"><Link to={'/staffs-single'}>Staffs single</Link></li>
-                  <li className="header__list"><Link to={'/elements'}>Elements</Link></li>
+                  {<li className="header__list"><Link to={'/elements'}>Elements</Link></li>}
 
                 </ul>
               </div>
-            </li>
+            </li> */}
 
             <li className="header__list">
               <Link href="" className="dropdown-link">Blog</Link>

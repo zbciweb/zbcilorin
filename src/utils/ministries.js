@@ -5,7 +5,7 @@ import ministry4 from "../assets/images/ministry-4@1.5x.jpg";
 import ministry5 from "../assets/images/ministry-5@1.5x.jpg";
 import ministry6 from "../assets/images/ministry-6@1.5x.jpg";
 let id =0;
-export const ministries = [
+export const __ministries = [
   {
     id: id+=1,
     name: "Music-Ministry",
@@ -42,7 +42,7 @@ export const ministries = [
   },
   {
     id: id+=1,
-    name: "Hotel-Minstry",
+    name: "Hotel-Ministry",
     image: ministry6,
     excerpt: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint culpa totam laborum."
 
@@ -51,12 +51,6 @@ export const ministries = [
     id: id+=1,
     name: "Prison-Ministry",
     image: ministry1,
-  },
-  { 
-    id: id+=1,
-    name: "Music-Ministry",
-    image: ministry6,
-    excerpt: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint culpa totam laborum."
-
-  },
+  } 
+  
 ];
