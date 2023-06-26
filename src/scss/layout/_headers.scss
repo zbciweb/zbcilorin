@@ -484,3 +484,14 @@
     }
   }
 }
+
+// Navigation for mobile ===================================================== //
+.open_nav{
+  display: block;
+  background-color: $light-gray-color;
+  @include respond(lg) {
+    display: none;
+  }
+}
+
+

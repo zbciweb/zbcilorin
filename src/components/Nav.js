@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import LogoLight from '../assets/images/church logo.png'
 import { Link } from 'react-router-dom'
 
 const Nav = () => {
+  const [show, setShow] = useState(false)
+
+  const handleShow = () => {
+    setShow(!show)
+  }
+
   return (
     <div>
        <header className="header transparent fixed light-text" data-onscroll-classes="dark-text white-bg"
@@ -16,16 +22,25 @@ const Nav = () => {
             <Link to={'/'}><img src={LogoLight} style={{ width:'50px'}} alt="Greater Love Church" /></Link>
           </div>
 
-          <div className="header__mobile--opener hide-on-lg">
-            <button className="header__mobile--icon" aria-expanded="false" aria-controls="mobile-menu"
-              data-toggle="mobile-menu">
+          <div onClick={handleShow} className="header__mobile--opener hide-on-lg">
+            { !show ? (<button className="header__mobile--icon" aria-expanded="false" aria-controls="mobile-menu"
+              data-toggle="mobile-menu"
+              >
               <span className="line"></span>
               <span className="line"></span>
               <span className="line"></span>
-            </button>
+            </button>) : (<button className="header__mobile--icon" aria-expanded="true" aria-controls="mobile-menu"
+              data-toggle="mobile-menu"
+              ></button>)
+            
+            }
           </div>
+          
+          
 
-          <ul className="header__navitems show-on-lg" id="mobile-menu">
+          <ul className={ show ? "show-on-lg header__navitems active": "show-on-lg header__navitems"} 
+          // id="mobile-menu"
+          >
 
           
             <li className="header__extra">

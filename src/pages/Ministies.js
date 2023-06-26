@@ -28,7 +28,7 @@ const Ministies = () => {
       </div>
 
       <div className="breadcrumb">
-        <div className="breadcrumb__home--link"><a href="index.html">Home</a></div>
+        <div className="breadcrumb__home--link"><Link to="/">Home</Link></div>
         <span></span>
         <div className="breadcrumb__current--page-link">Ministries</div>
       </div>

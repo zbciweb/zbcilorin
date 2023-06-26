@@ -41,16 +41,18 @@ const Footer = () => {
                 <div className="footer__info social">
                   <span>Follow us on all our social media platforms</span>
                   <div className="social__icons">
-                  <a href="web.facebook.com/zbcipage" target="_blank" rel="noopener noreferrer">
+                  <Link to="https://web.facebook.com/zbcipage" target="_blank" rel="noopener noreferrer">
                       <i className="ri-facebook-line"></i>        
-                    </a>
-                    <Link to="/about">
-                      <img className="" src={logo} alt="" />
                     </Link>
-                    <Link to="/about">
+                    <Link to="https://mixlr.com" target="_blank" rel="noopener noreferrer">
+                      <div style={{ height:'40px'}}>
+                      <img className="" src={logo} alt="" />
+                      </div>
+                    </Link>
+                    <Link to="https://youtube.com" target="_blank" rel="noopener noreferrer">
                       <i className="ri-youtube-line" ></i>
                     </Link>
-                    <Link to='/'>
+                    <Link to='https://instagram.com' target="_blank" rel="noopener noreferrer">
                       <i className="ri-instagram-line"></i>
                     </Link>
                   </div>
