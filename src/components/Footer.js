@@ -15,19 +15,16 @@ const Footer = () => {
           <div className="footer__top display-flex justify-align-center">
             <div className="footer__logo">
               <div className="logo-wrapper">
-              
+                {/* <img src={logo} alt="Small logo" /> */}
               </div>
             </div>
           </div>
 
           <div className="footer__bottom">
             <div className="row align-items-center">
-              <div className="flex-md-6 flex-lg-5">
+              <div className="flex-md-6 flex-lg-4">
                 <div className="footer__info copyright">
-                  &copy; {new Date().getFullYear()} - Zion Baptist Church, Adewole, Ilorin - All Rights Reserved
-                </div>
-                <div className="footer__info copyright">
-                  Designed by Public Relations Unit, ZBCI MEDIA
+                  &copy; {new Date().getFullYear()} - ZBCI - All Rights Reserved
                 </div>
               </div>
 

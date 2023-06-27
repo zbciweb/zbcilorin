@@ -3,12 +3,12 @@ import React from "react";
 const TimeLocation = () => {
   return (
     <div>
-      <section className="time-location background-lighter-gray" id="worshiptime">
-        <div className="container">
-          <div className="row">
-            <div className="flex-lg-6">
-              <div className="time-location__content default-section-spacing">
-                <div className="section-heading">
+    <section className="time-location background-lighter-gray" id="worshiptime">
+      <div className="container">
+        <div className="row">
+          <div className="flex-lg-6">
+            <div className="time-location__content default-section-spacing">
+              <div className="section-heading">
                   <span>Time and location</span>
                   <h2>Come and worship with us</h2>
                 </div>
@@ -43,14 +43,16 @@ const TimeLocation = () => {
                       </div>
                     </div>
                   </div>
-                </div>
-        <div className="time-location__time">
+                </div>    
 
-        
-
-          <div className="info">
-            <div className="location bold">Location:</div>
-            <div className="location-info"><span>123 Jay St, Albany, NY 12203</span></div>
+                <div className="info">
+                  <div className="location bold">Location:</div>
+                  <div className="location-info">
+                    <span>Zion Baptist Church, Adewole Estate, Ilorin</span>
+                  </div>
+                  </div>
+              </div>
+            </div>
           </div>
         </div>
 

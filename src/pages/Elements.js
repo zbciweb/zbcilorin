@@ -25,7 +25,7 @@ const Elements = () => {
             </div>
 
             <div className="breadcrumb">
-              <div className="breadcrumb__home--link"><a href="index.html">Home</a></div>
+              <div className="breadcrumb__home--link"><Link to={'/'}>Home</Link></div>
               <span></span>
               <div className="breadcrumb__current--page-link">Elements</div>
             </div>
@@ -42,15 +42,15 @@ const Elements = () => {
           <h2>Buttons</h2>
 
           <div className="mar-b-sm">
-            <Link href="" className="button">Default button</Link>
+            <Link className="button">Default button</Link>
           </div>
 
           <div className="mar-b-sm">
-            <Link href="" className="button button--link">Button link <i className="ri-arrow-right-line"></i></Link>
+            <Link className="button button--link">Button link <i className="ri-arrow-right-line"></i></Link>
           </div>
 
           <div>
-            <Link href="" className="button button-block-sm">Button block</Link>
+            <Link className="button button-block-sm">Button block</Link>
           </div>
 
         </div>
@@ -76,7 +76,7 @@ const Elements = () => {
               <nav className="header__nav bottom-nav">
 
                 <div className="header__logo brand--logo">
-                  <Link href=""><img src={logo} alt="Greater Love Church"/></Link>
+                  <Link><img src={logo} alt="Greater Love Church"/></Link>
                 </div>
 
                 <div className="header__mobile--opener hide-on-lg">
@@ -92,40 +92,40 @@ const Elements = () => {
 
                   <div className="header__extra">
                     <div className="cta">
-                      <Link href="" className="button button-block-sm">Button</Link>
+                      <Link className="button button-block-sm">Button</Link>
                     </div>
                   </div>
 
-                  <li className="header__list active"><Link href="">Link</Link></li>
+                  <li className="header__list active"><Link>Link</Link></li>
 
                   <li className="header__list">
-                    <Link href="" className="dropdown-link">Dropdown link</Link>
+                    <Link className="dropdown-link">Dropdown link</Link>
 
                     <div className="header__submenu">
                       <ul>
 
-                        <li className="header__list"><Link href="">Dropdown link</Link></li>
-                        <li className="header__list"><Link href="">Dropdown link</Link></li>
+                        <li className="header__list"><Link>Dropdown link</Link></li>
+                        <li className="header__list"><Link>Dropdown link</Link></li>
 
                       </ul>
 
                     </div>
                   </li>
                   <li className="header__list">
-                    <Link href="" className="dropdown-link">Another dropdown</Link>
+                    <Link className="dropdown-link">Another dropdown</Link>
 
                     <div className="header__submenu">
                       <ul>
 
-                        <li className="header__list"><Link href="">Dropdown link</Link></li>
+                        <li className="header__list"><Link>Dropdown link</Link></li>
 
                         <li className="header__list">
-                          <Link href="" className="dropdown-link">Dropdown with dropdown</Link>
+                          <Link className="dropdown-link">Dropdown with dropdown</Link>
 
                           <div className="header__submenu">
                             <ul>
-                              <li className="header__list"><Link href="">Extra dropdown</Link></li>
-                              <li className="header__list"><Link href="">Extra dropdown</Link></li>
+                              <li className="header__list"><Link>Extra dropdown</Link></li>
+                              <li className="header__list"><Link>Extra dropdown</Link></li>
                             </ul>
                           </div>
 
@@ -135,9 +135,9 @@ const Elements = () => {
                     </div>
                   </li>
 
-                  <li className="header__list"><Link href="">Link</Link></li>
+                  <li className="header__list"><Link>Link</Link></li>
 
-                  <li className="header__list"><Link href="">Link</Link></li>
+                  <li className="header__list"><Link>Link</Link></li>
 
                 </ul>
 
@@ -145,14 +145,14 @@ const Elements = () => {
                   <div className="shopping-cart">
 
                     <div className="bag">
-                      <Link href=""><i className="ri-shopping-bag-line"></i>
+                      <Link><i className="ri-shopping-bag-line"></i>
                         <span className="full"></span></Link>
                     </div>
 
                   </div>
 
                   <div className="cta hide-on-sm show-on-lg">
-                    <Link href="" className="button">Button</Link>
+                    <Link className="button">Button</Link>
                   </div>
                 </div>
 
@@ -171,11 +171,11 @@ const Elements = () => {
 
             <div className="pagination">
 
-              <span className="pagination__arrow"><Link href=""><i className="ri-arrow-left-s-line"></i></Link></span>
-              <span className="pagination__number"><Link href="">1</Link></span>
-              <span className="pagination__number active"><Link href="">2</Link></span>
-              <span className="pagination__number"><Link href="">3</Link></span>
-              <span className="pagination__arrow"><Link href=""><i className="ri-arrow-right-s-line"></i></Link></span>
+              <span className="pagination__arrow"><Link><i className="ri-arrow-left-s-line"></i></Link></span>
+              <span className="pagination__number"><Link>1</Link></span>
+              <span className="pagination__number active"><Link>2</Link></span>
+              <span className="pagination__number"><Link>3</Link></span>
+              <span className="pagination__arrow"><Link><i className="ri-arrow-right-s-line"></i></Link></span>
 
             </div>
 
@@ -185,7 +185,7 @@ const Elements = () => {
             <h3>Breadcrumbs</h3>
 
             <div className="breadcrumb">
-              <div className="breadcrumb__home--link"><Link href="">Home</Link></div>
+              <div className="breadcrumb__home--link"><Link>Home</Link></div>
               <span></span>
               <div className="breadcrumb__current--page-link">Elements</div>
             </div>
@@ -193,9 +193,9 @@ const Elements = () => {
             <div className="mar-b-sm mar-t-sm"></div>
 
             <div className="breadcrumb">
-              <div className="breadcrumb__home--link"><Link href="">Home</Link></div>
+              <div className="breadcrumb__home--link"><Link>Home</Link></div>
               <span></span>
-              <div><Link href="">Pages</Link></div>
+              <div><Link>Pages</Link></div>
               <span></span>
               <div className="breadcrumb__current--page-link">Elements</div>
             </div>
@@ -250,14 +250,14 @@ const Elements = () => {
                   </div>
 
                   <div className="sermon__link">
-                    <Link href="" className="button">Read more</Link>
+                    <Link className="button">Read more</Link>
                   </div>
 
                   <div className="sermon__download">
                     <span className="text-white">Download</span>
-                    <Link href=""><i className="ri-video-line"></i></Link>
-                    <Link href=""><i className="ri-headphone-line"></i></Link>
-                    <Link href=""><i className="ri-file-pdf-line"></i></Link>
+                    <Link><i className="ri-video-line"></i></Link>
+                    <Link><i className="ri-headphone-line"></i></Link>
+                    <Link><i className="ri-file-pdf-line"></i></Link>
                   </div>
                 </div>
 
@@ -287,7 +287,7 @@ const Elements = () => {
                     <div className="excerpt">
                       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint culpa totam laborum.</p>
                     </div>
-                    <div className="ministry__link"><Link href="" className="button">Learn more</Link></div>
+                    <div className="ministry__link"><Link className="button">Learn more</Link></div>
                   </div>
 
                 </div>
@@ -322,7 +322,7 @@ const Elements = () => {
                     <h2>Scholarship fundraiser @GLC</h2>
                   </div>
 
-                  <div className="event__link"><Link href="" className="button">Learn more</Link></div>
+                  <div className="event__link"><Link  className="button">Learn more</Link></div>
 
                 </div>
 
@@ -359,7 +359,7 @@ const Elements = () => {
                       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis excepturi sunt doloribus
                         consequuntur eveniet nostrum dicta, voluptate enim rem voluptatem.</p>
                     </div>
-                    <div className="blog__link"><Link href="" className="button">Read more</Link></div>
+                    <div className="blog__link"><Link className="button">Read more</Link></div>
                   </div>
 
                 </div>
@@ -383,7 +383,7 @@ const Elements = () => {
                     <h3>Walter L. Brown</h3>
                   </div>
                   <div className="staff__title">Assistant pastor</div>
-                  <div className="staff__link"><Link href="" className="button">Learn more</Link></div>
+                  <div className="staff__link"><Link className="button">Learn more</Link></div>
 
                 </div>
 

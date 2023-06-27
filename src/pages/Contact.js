@@ -1,5 +1,6 @@
 import React from "react"; 
 import TimeLocation from "../components/TimeLocation";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -18,7 +19,7 @@ const Contact = () => {
 
               <div className="breadcrumb">
                 <div className="breadcrumb__home--link">
-                  <a href="index.html">Home</a>
+                  <Link to={'/'}>Home</Link>
                 </div>
                 <span></span>
                 <div className="breadcrumb__current--page-link">Contact</div>

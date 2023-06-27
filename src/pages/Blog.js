@@ -24,7 +24,7 @@ const Blog = () => {
             </div>
 
             <div className="breadcrumb">
-              <div className="breadcrumb__home--link"><a href="index.html">Home</a></div>
+              <div className="breadcrumb__home--link"><Link to={'/'}>Home</Link></div>
               <span></span>
               <div className="breadcrumb__current--page-link">Blog</div>
             </div>
@@ -136,7 +136,7 @@ const Blog = () => {
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis excepturi sunt doloribus
                           consequuntur eveniet nostrum dicta, voluptate enim rem voluptatem.</p>
                       </div>
-                      <div className="blog__link"><a href="blog-single.html" className="button">Read more</a></div>
+                      <div className="blog__link"><Link to={'/blog-single'} className="button">Read more</Link></div>
                     </div>
 
                   </div>
@@ -172,7 +172,7 @@ const Blog = () => {
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis excepturi sunt doloribus
                           consequuntur eveniet nostrum dicta, voluptate enim rem voluptatem.</p>
                       </div>
-                      <div className="blog__link"><a href="blog-single.html" className="button">Read more</a></div>
+                      <div className="blog__link"><Link to={'/blog-single'} className="button">Read more</Link></div>
                     </div>
 
                   </div>
@@ -209,7 +209,7 @@ const Blog = () => {
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis excepturi sunt doloribus
                           consequuntur eveniet nostrum dicta, voluptate enim rem voluptatem.</p>
                       </div>
-                      <div className="blog__link"><a href="blog-single.html" className="button">Read more</a></div>
+                      <div className="blog__link"><Link to={'/blog-single'} className="button">Read more</Link></div>
                     </div>
 
                   </div>
@@ -245,7 +245,7 @@ const Blog = () => {
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis excepturi sunt doloribus
                           consequuntur eveniet nostrum dicta, voluptate enim rem voluptatem.</p>
                       </div>
-                      <div className="blog__link"><a href="blog-single.html" className="button">Read more</a></div>
+                      <div className="blog__link"><Link to={'/blog-single'} className="button">Read more</Link></div>
                     </div>
 
                   </div>
@@ -281,7 +281,7 @@ const Blog = () => {
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis excepturi sunt doloribus
                           consequuntur eveniet nostrum dicta, voluptate enim rem voluptatem.</p>
                       </div>
-                      <div className="blog__link"><a href="blog-single.html" className="button">Read more</a></div>
+                      <div className="blog__link"><Link to={'/blog-single'} className="button">Read more</Link></div>
                     </div>
 
                   </div>
@@ -315,7 +315,7 @@ const Blog = () => {
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis excepturi sunt doloribus
                           consequuntur eveniet nostrum dicta, voluptate enim rem voluptatem.</p>
                       </div>
-                      <div className="blog__link"><a href="blog-single.html" className="button">Read more</a></div>
+                      <div className="blog__link"><Link to={'/blog-single'} className="button">Read more</Link></div>
                     </div>
 
                   </div>
@@ -330,11 +330,11 @@ const Blog = () => {
 
           <div className="pagination">
 
-            <span className="pagination__arrow"><Link href=""><i className="ri-arrow-left-s-line"></i></Link></span>
-            <span className="pagination__number"><Link href="">1</Link></span>
-            <span className="pagination__number active"><Link href="">2</Link></span>
-            <span className="pagination__number"><Link href="">3</Link></span>
-            <span className="pagination__arrow"><Link href=""><i className="ri-arrow-right-s-line"></i></Link></span>
+            <span className="pagination__arrow"><Link ><i className="ri-arrow-left-s-line"></i></Link></span>
+            <span className="pagination__number"><Link >1</Link></span>
+            <span className="pagination__number active"><Link >2</Link></span>
+            <span className="pagination__number"><Link >3</Link></span>
+            <span className="pagination__arrow"><Link ><i className="ri-arrow-right-s-line"></i></Link></span>
 
           </div>
 

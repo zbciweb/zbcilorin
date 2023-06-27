@@ -10,8 +10,20 @@ export const pastors = [
     name: "Rev'd Dr. Festus Olu Ade Alade",
     disposition: "Church Pastor",
     image: pastor,
+    email: "test@test.com",
+    phoneNumber: "+2347067897717",
+    whatsapp: "https://wa.me/+2347067897717",
+    facebook: "https://web.facebook.com/festusolukay.alade",
   },
-  { name: "Rev. Tunde Ajala", disposition: "Music Minister", image: staff1 },
+  {
+    name: "Rev. Tunde Ajala",
+    disposition: "Music Minister",
+    image: staff1,
+    email: "test@test.com",
+    phoneNumber: "+23409168226161",
+    whatsapp: "https://wa.me/+2348066770980",
+    facebook: "https://web.facebook.com/ajala.babatundesimeon.1",
+  },
 ];
 export const diaconates = [
   {

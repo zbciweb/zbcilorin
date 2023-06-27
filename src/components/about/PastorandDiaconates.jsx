@@ -1,6 +1,5 @@
 import React from "react";
-
-
+import { Link } from "react-router-dom";
 import { diaconates, pastors } from "../../utils/pastors&diaconates";
 function PastorandDiaconates() {
 
@@ -27,6 +26,26 @@ function PastorandDiaconates() {
                   <div className="staff__name text-center">
                     <h3>{pastors[0].name}</h3>
                     <div className="staff__title">{pastors[0].disposition}</div>
+                  </div>
+                        
+                <div className="sidebar">
+                  <div className="sidebar__widget">
+                    <div className="share">
+                    
+                      <Link to={pastors[0].facebook} target="_blank" rel="noreferrer noopener" title={`Contact ${pastors[0].name} on Facebook `} >
+                        <i className="ri-facebook-line"></i>
+                      </Link>
+                      <Link to={`tel:${pastors[0].phoneNumber}`} title={`Call ${pastors[1].name}  `}>
+                        <i className="ri-phone-line"></i>
+                      </Link>
+                      <Link to={pastors[0].whatsapp} target="_blank" rel="noreferrer noopener" title={`Contact ${pastors[0].name} on WhatsApp `}>
+                        <i className="ri-whatsapp-line"></i>
+                      </Link>
+                      <Link to={`mailto:${pastors[0].email}`} title={`Email ${pastors[1].name} `}>
+                        <i className="ri-mail-line"></i>
+                      </Link>
+                    </div>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -101,6 +120,9 @@ function PastorandDiaconates() {
                   Possimus, maiores, eius ipsum beatae numquam nemo cum
                   officiis.
                 </p>
+
+
+                
               </div>
             </div>
             <div className="flex-md-6 flex-lg-5">
@@ -113,10 +135,31 @@ function PastorandDiaconates() {
                   />
                 </div>
 
+
                 <div className="card__footer">
                   <div className="staff__name text-center">
                     <h3>{pastors[1].name}</h3>
                     <div className="staff__title">{pastors[1].disposition}</div>
+                  </div>
+                  
+                <div className="sidebar">
+                  <div className="sidebar__widget">
+                    <div className="share">
+                    
+                      <Link to={pastors[1].facebook} target="_blank" rel="noreferrer noopener" title={`Contact ${pastors[1].name} on Facebook `} >
+                        <i className="ri-facebook-line"></i>
+                      </Link>
+                      <Link to={`tel:${pastors[1].phoneNumber}`} title={`Call ${pastors[1].name}  `}>
+                        <i className="ri-phone-line"></i>
+                      </Link>
+                      <Link to={pastors[1].whatsapp} target="_blank" rel="noreferrer noopener" title={`Contact ${pastors[1].name} on WhatsApp `}>
+                        <i className="ri-whatsapp-line"></i>
+                      </Link>
+                      <Link to={`mailto:${pastors[1].email}`} title={`Email ${pastors[1].name} `}>
+                        <i className="ri-mail-line"></i>
+                      </Link>
+                    </div>
+                  </div>
                   </div>
                 </div>
               </div>

@@ -1,9 +1,46 @@
-import React from "react"; 
+import React, { useState } from "react";
 import TimeLocation from "../components/TimeLocation";
 import { Link } from "react-router-dom";
-import { ministries } from "../utils/ministries";
+import { __ministries } from "../utils/ministries";
+import { removeHyphen } from "../utils/fn";
 
-const Ministies = () => { 
+const Ministies = () => {
+  const [value, setValue] = useState("");
+  const [search, setSearch] = useState([]);
+  const [page, setPage] = useState(1);
+  const [, setHidePagination] = useState(false);
+
+  const perPage = 3;
+  const total = __ministries.length;
+  const pages = Math.ceil(total / perPage);
+  const pageLimit = pages;
+  function changePage(e) {
+    const pageNumber = Number(e.target.textContent);
+    setPage(pageNumber);
+  }
+
+  const getPaginatedData = (page, perPage) => {
+    const startIndex = page * perPage - perPage;
+    const endIndex = startIndex + perPage;
+    return __ministries.slice(startIndex, endIndex);
+  };
+  const getPaginationGroup = (pages, pageLimit) => {
+    let start = Math.floor((pages - 1) / pageLimit) * pageLimit;
+    return new Array(pageLimit).fill().map((__, idx) => start + idx + 1);
+  };
+
+  const handleSearch = (e) => {
+    const val = e.target.value;
+ 
+  
+    setValue(val);
+    const filteredSearch = __ministries.filter((d) => {
+      return d.name.toLowerCase().includes(val.toLowerCase());
+    });
+    setHidePagination(true);
+    setSearch(filteredSearch);
+  };
+
   return (
     <>
       <main>
@@ -20,7 +57,7 @@ const Ministies = () => {
 
               <div className="breadcrumb">
                 <div className="breadcrumb__home--link">
-                  <Link to={'/'}>Home</Link>
+                  <a href="index.html">Home</a>
                 </div>
                 <span></span>
                 <div className="breadcrumb__current--page-link">Ministries</div>
@@ -32,7 +69,7 @@ const Ministies = () => {
           <div className="container">
             <div className="section-heading text-center no-margin">
               <span>Ministries</span>
-              <h2>Our ministries</h2>
+              <h2>Church Ministries</h2>
             </div>
 
             <div className="search search-header default-section-spacing">
@@ -40,7 +77,9 @@ const Ministies = () => {
                 <div className="flex-md-3 flex-lg-4">
                   <div className="search__result">
                     <div className="text leading uppercase bold">Results</div>
-                    <p>Showing 6 out of 24 ministries</p>
+                    <p>
+                      Showing {page} out of {pages}
+                    </p>
                   </div>
                 </div>
 
@@ -49,82 +88,129 @@ const Ministies = () => {
                     <div className="text leading uppercase bold">Search</div>
                   </div>
 
-                  <form action="#" className="form search__form">
-                    <div className="display-flex">
-                      <div className="form__group">
-                        <input
-                          type="text"
-                          className="form__input"
-                          placeholder="Search for ministries..."
-                        />
-                      </div>
-
-                      <div>
-                        <button type="submit" className="button">
-                          Search
-                        </button>
-                      </div>
+                  <div className="display-flex">
+                    <div className="form__group">
+                      <input
+                        type="text"
+                        className="form__input"
+                        placeholder="Search for ministries..."
+                        value={value}
+                        onChange={handleSearch}
+                      />
                     </div>
-                  </form>
+                  </div>
                 </div>
               </div>
             </div>
 
             <div className="all-ministries__ministries">
               <div className="row">
-                {ministries.map((d, i) => (
-                  <div className="flex-md-6 flex-lg-4 mar-b-sm" key={i}>
-                    <div className="card ministry">
-                      <div className="card__header">
-                        <img
-                          src={d.image}
-                          alt={d.name}
-                          className="card__image ministry__image"
-                        />
-                      </div>
-                      <div className="card__footer">
-                        <div className="ministry__title">
-                          <h3>{d.name}</h3>
+                {value === "" ? (
+                  getPaginatedData(page, perPage).map((d, i) => (
+                    <div className="flex-md-6 flex-lg-4 mar-b-sm" key={i}>
+                      <div className="card ministry">
+                        <div className="card__header">
+                          <img
+                            src={d.image}
+                            alt={d.name}
+                            className="card__image ministry__image"
+                          />
                         </div>
-
-                        <div className="ministry__content">
-                          <div className="excerpt">
-                            <p>{d.excerpt}</p>
+                        <div className="card__footer">
+                          <div className="ministry__title">
+                            <h3>{removeHyphen(d.name)}</h3>
                           </div>
-                        </div>
-                        <div className="ministry__link mar-t-sm">
-                          <Link to={`/ministries/${d.name}`} className="button">
-                            Learn More
-                          </Link>
+
+                          <div className="ministry__content">
+                            <div className="excerpt">
+                              <p>{d.excerpt}</p>
+                            </div>
+                          </div>
+                          <div className="ministry__link mar-t-sm">
+                            <Link
+                              to={`/ministries/${d.name}`}
+                              className="button"
+                            >
+                              Learn More
+                            </Link>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  ))
+                ) : search.length === 0 ? (
+                  <p>No results found</p>
+                ) : (
+                  search.map((d, i) => (
+                    <div className="flex-md-6 flex-lg-4 mar-b-sm" key={i}>
+                      <div className="card ministry">
+                        <div className="card__header">
+                          <img
+                            src={d.image}
+                            alt={d.name}
+                            className="card__image ministry__image"
+                          />
+                        </div>
+                        <div className="card__footer">
+                          <div className="ministry__title">
+                            <h3>{removeHyphen(d.name)}</h3>
+                          </div>
+
+                          <div className="ministry__content">
+                            <div className="excerpt">
+                              <p>{d.excerpt}</p>
+                            </div>
+                          </div>
+                          <div className="ministry__link mar-t-sm">
+                            <Link
+                              to={`/ministries/${d.name}`}
+                              className="button"
+                            >
+                              Learn More
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  ))
+                )}
               </div>
             </div>
+            { 
+              <div className="pagination">
+                {page >= 2 ? (
+                  <span className={`pagination__arrow`}>
+                    <Link onClick={() => setPage((prev) => prev - 1)}>
+                      <i className="ri-arrow-left-s-line"></i>
+                    </Link>
+                  </span>
+                ) : (
+                  ""
+                )}
 
-            <div className="pagination">
-              <span className="pagination__arrow">
-                <Link href="">
-                  <i className="ri-arrow-left-s-line"></i>
-                </Link>
-              </span>
-              <span className="pagination__number">
-                <Link href="">1</Link>
-              </span>
-              <span className="pagination__number active">
-                <Link href="">2</Link>
-              </span>
-              <span className="pagination__number">
-                <Link href="">3</Link>
-              </span>
-              <span className="pagination__arrow">
-                <Link href="">
-                  <i className="ri-arrow-right-s-line"></i>
-                </Link>
-              </span>
-            </div>
+                {getPaginationGroup(pages, pageLimit).map((d, i) => (
+                  <span
+                    className={`pagination__number ${
+                      page === d ? "active" : ""
+                    }`}
+                    key={i}
+                  >
+                    <Link onClick={changePage} href="">
+                      {d}
+                    </Link>
+                  </span>
+                ))}
+                {page === pages ? (
+                  ""
+                ) : (
+                  <span className={`pagination__arrow`}>
+                    <Link onClick={() => setPage((prev) => prev + 1)}>
+                      <i className="ri-arrow-right-s-line"></i>
+                    </Link>
+                  </span>
+                )}
+              </div>
+           }
           </div>
         </div>
         <TimeLocation />

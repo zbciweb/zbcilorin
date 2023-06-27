@@ -316,7 +316,7 @@ const HomeMain = () => {
             </div>
           </div>
         </section>
-        <Gallery page="home" />
+        <Gallery page="Church" />
 
         <section className="our-testimonial default-section-spacing background-secondary">
           <div className="our-testimonial__background--cover"></div>
