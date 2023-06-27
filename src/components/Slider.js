@@ -11,6 +11,7 @@ const Sliders = () => {
     {
       greetings: "We are glad you are here",
       title: "Welcome to Zion",
+      subtitle: "Grace and Peace",
       text:
         "The City of God",
       background: hero1,
@@ -61,6 +62,7 @@ const Sliders = () => {
                       <div className="hero__content text-center">
                         <span className="hero__intro">{item.greetings}</span>
                         <h1>{item.title}</h1>
+                        <h3>{item.subtitle}</h3>
                         <p className="leading">{item.text}</p>
                         <div className="hero__cta">
                           <Link to={item.link} className="button">
