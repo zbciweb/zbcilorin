@@ -35,7 +35,7 @@ const MinistriesSinge = () => {
             <div className="breadcrumb">
               <div className="breadcrumb__home--link"><a href="index.html">Home</a></div>
               <span></span>
-              <div><Link href="/ministries">Ministries</Link></div>
+              <div><a href="ministries.html">Ministries</a></div>
               <span></span>
               <div className="breadcrumb__current--page-link">Men's ministry</div>
             </div>
@@ -126,10 +126,10 @@ const MinistriesSinge = () => {
                 <div className="sidebar__widget">
                   <div className="share">
                     <span>Share</span>
-                    <Link to="https://web.facebook.com" target="_blank" rel="noopener noreferrer" title="Share it on Facebook"><i className="ri-facebook-line"></i></Link>
-                    <Link to="https://youtube.com" target="_blank" rel="noopener noreferrer" title="Share it on Youtube"><i className="ri-youtube-line" ></i></Link>
-                    <Link to="https://instagram.com" target="_blank" rel="noopener noreferrer" title="Share it on Instagram"><i className="ri-instagram-line"></i></Link>
-                    <Link to="https://yahoo.com" target="_blank" rel="noopener noreferrer" title="Email it"><i className="ri-mail-line"></i></Link>
+                    <Link href="" title="Share it on Facebook"><i className="ri-facebook-line"></i></Link>
+                    <Link href="" title="Share it on LinkedIn"><i className="ri-linkedin-line"></i></Link>
+                    <Link href="" title="Share it on Twitter"><i className="ri-twitter-line"></i></Link>
+                    <Link href="" title="Email it"><i className="ri-mail-line"></i></Link>
                   </div>
                 </div>
 

@@ -1,6 +1,4 @@
-import React from 'react'
-import Nav from '../components/Nav'
-import Footer from '../components/Footer'
+import React from 'react' 
 import { Link } from 'react-router-dom'
 import sermon1 from '../assets/images/sermon-1@1.5x.jpg'
 import sermon2 from '../assets/images/sermon-2@1.5x.jpg'
@@ -13,7 +11,7 @@ import TimeLocation from '../components/TimeLocation'
 const Sermons = () => {
   return (
     <div>
-        <Nav/>
+       
         <main>
       <section className="banner full-width">
 
@@ -408,7 +406,7 @@ const Sermons = () => {
 
     </main>
     <div className="scroll-to-top"><i className="ri-arrow-up-line"></i></div>
-        <Footer/>
+    
     </div>
   )
 }

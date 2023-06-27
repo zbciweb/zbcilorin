@@ -1,6 +1,5 @@
 import React from 'react'
-import Footer from '../components/Footer'
-import Nav from '../components/Nav'
+ 
 import TimeLocation from '../components/TimeLocation'
 import single from '../assets/images/single.jpg'
 import post1 from '../assets/images/post-1@1.5x.jpg'
@@ -14,7 +13,7 @@ import { Link } from 'react-router-dom'
 const BlogSingle = () => {
   return (
     <div>
-      <Nav/>
+ 
       <main>
       <section className="banner full-width">
 
@@ -382,7 +381,7 @@ const BlogSingle = () => {
       <TimeLocation/>
 
     </main>
-      <Footer/>
+   
     </div>
   )
 }

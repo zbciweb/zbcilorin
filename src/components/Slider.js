@@ -10,19 +10,19 @@ const Sliders = () => {
   const content = [
     {
       greetings: "We are glad you are here",
-      title: "Welcome to Zion Baptist Church Ilorin",
+      title: "Welcome to Zion",
       text:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea veniam vitae repudiandae, reprehenderit ducimus at.",
+        "The City of God",
       background: hero1,
       link: "/about",
     },
     {
       greetings: "We are glad you are here",
-      title: "Come fellowship with us",
+      title: "Fellowship with us",
       text:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea veniam vitae repudiandae, reprehenderit ducimus at.",
       background: hero2,
-      link: "/about",
+      link: "#worshiptime",
     },
   ];
 

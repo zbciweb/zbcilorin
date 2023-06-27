@@ -1,6 +1,4 @@
-import React from 'react'
-import Nav from '../components/Nav'
-import Footer from '../components/Footer'
+import React from 'react' 
 import single from '../assets/images/single.jpg'
 import sermon1 from '../assets/images/sermon-1@1.5x.jpg'
 import sermon2 from '../assets/images/sermon-2@1.5x.jpg'
@@ -15,7 +13,7 @@ const SermonsSingle = () => {
     const navigate = useNavigate()
   return (
     <div>
-      <Nav/>
+   
       <main>
 
      
@@ -386,7 +384,7 @@ const SermonsSingle = () => {
       </div>
      <TimeLocation/>
     </main>
-      <Footer/>
+     
     </div>
   )
 }

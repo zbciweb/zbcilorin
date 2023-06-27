@@ -1,6 +1,4 @@
-import React from 'react'
-import Footer from '../components/Footer'
-import Nav from '../components/Nav'
+import React from 'react' 
 import logo from '../assets/images/logo-dark.png'
 import sermon3 from '../assets/images/sermon-3@1.5x.jpg'
 import ministry4 from '../assets/images/ministry-4@1.5x.jpg'
@@ -13,7 +11,7 @@ import { Link } from 'react-router-dom'
 const Elements = () => {
   return (
     <div>
-      <Nav/>
+    
       <main>
       <section className="banner full-width">
 
@@ -664,7 +662,7 @@ const Elements = () => {
       </section>
 
     </main>
-      <Footer/>
+   
     </div>
   )
 }
