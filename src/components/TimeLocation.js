@@ -3,24 +3,26 @@ import React from "react";
 const TimeLocation = () => {
   return (
     <div>
-      <section className="time-location background-lighter-gray" id="worshiptime">
-        <div className="container">
-          <div className="row">
-            <div className="flex-lg-6">
-              <div className="time-location__content default-section-spacing">
-                <div className="section-heading">
+    <section className="time-location background-lighter-gray" id="worshiptime">
+      <div className="container">
+        <div className="row">
+          <div className="flex-lg-6">
+            <div className="time-location__content default-section-spacing">
+              <div className="section-heading">
                   <span>Time and location</span>
                   <h2>Come and worship with us</h2>
                 </div>
                 <div className="row mar-b-sm">
                   <div className="flex-lg-6">
                     <div className="time-location__time">
-                      <div className="day bold">Sunday</div>
+                      <div className="day bold">Sunday:</div>
                       <div className="info">
                         <div className="time">
-                          <span>8:00am First (Youth) Worship Service</span>
-                          <span>9:30am Sunday School</span>
-                          <span>10:30am Second Worship Service</span>
+                        <span>8:00 am (Pre-Service Intercessors' Prayer Meeting)</span>
+              <span>8:00 am - 9:30 am (First (Youth) Worship Service)</span>
+              <span>9:30 am - 10:30 am (Sunday school)</span>
+              <span>10:30 am - 12:00 pm (Second Worship Service)</span>
+              <span>5:00 pm (Home Fellowship: Last Two Sundays of Every Month)</span>
                         </div>
                       </div>
                     </div>
@@ -41,14 +43,14 @@ const TimeLocation = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div>    
 
                 <div className="info">
                   <div className="location bold">Location:</div>
                   <div className="location-info">
                     <span>Zion Baptist Church, Adewole Estate, Ilorin</span>
                   </div>
-                </div>
+                  </div>
               </div>
             </div>
           </div>

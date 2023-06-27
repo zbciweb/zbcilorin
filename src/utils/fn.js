@@ -5,4 +5,3 @@ export function selectRandomMembers(array, count) {
   export function removeHyphen(text) {
     return text.replace(/-/g, ' ');
   }
- 

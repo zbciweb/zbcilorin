@@ -136,24 +136,19 @@ const MinistriesSinge = () => {
                 </div>
               </div>
 
-              <div className="flex-lg-4">
-                <div className="sidebar">
-                  <div className="sidebar__widget">
-                    <div className="share">
-                      <span>Share</span>
-                      <Link href="" title="Share it on Facebook">
-                        <i className="ri-facebook-line"></i>
-                      </Link>
-                      <Link href="" title="Share it on LinkedIn">
-                        <i className="ri-linkedin-line"></i>
-                      </Link>
-                      <Link href="" title="Share it on Twitter">
-                        <i className="ri-twitter-line"></i>
-                      </Link>
-                      <Link href="" title="Email it">
-                        <i className="ri-mail-line"></i>
-                      </Link>
-                    </div>
+            </div>
+
+            <div className="flex-lg-4">
+
+              <div className="sidebar">
+
+                <div className="sidebar__widget">
+                  <div className="share">
+                    <span>Share</span>
+                    <Link href="" title="Share it on Facebook"><i className="ri-facebook-line"></i></Link>
+                    <Link href="" title="Share it on LinkedIn"><i className="ri-linkedin-line"></i></Link>
+                    <Link href="" title="Share it on Twitter"><i className="ri-twitter-line"></i></Link>
+                    <Link href="" title="Email it"><i className="ri-mail-line"></i></Link>
                   </div>
 
                   <div className="sidebar__widget">
@@ -246,4 +241,4 @@ const MinistriesSinge = () => {
   );
 };
 
-export default MinistriesSinge;
+export default MinistriesSinge

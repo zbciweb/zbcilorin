@@ -90,6 +90,154 @@ export const galleryImages = [
   },
   {
     page: "Drama-Ministry",
+<<<<<<< HEAD
+    images: [
+      {
+        imageName: "",
+        image: Gallery1,
+      },
+      {
+        imageName: "",
+        image: Gallery2,
+      },
+      {
+        imageName: "",
+        image: Gallery3,
+      },
+      {
+        imageName: "",
+        image: Gallery4,
+      },
+      {
+        imageName: "",
+        image: Gallery5,
+      },
+      {
+        imageName: "",
+        image: Gallery6,
+      },
+    ],
+  },
+  {
+    page: "Youth-Ministry",
+    images: [
+      {
+        imageName: "",
+        image: Gallery1,
+      },
+      {
+        imageName: "",
+        image: Gallery2,
+      },
+      {
+        imageName: "",
+        image: Gallery3,
+      },
+      {
+        imageName: "",
+        image: Gallery4,
+      },
+      {
+        imageName: "",
+        image: Gallery5,
+      },
+      {
+        imageName: "",
+        image: Gallery6,
+      },
+    ],
+  },
+  {
+    page: "MMU",
+    images: [
+      {
+        imageName: "",
+        image: Gallery1,
+      },
+      {
+        imageName: "",
+        image: Gallery2,
+      },
+      {
+        imageName: "",
+        image: Gallery3,
+      },
+      {
+        imageName: "",
+        image: Gallery4,
+      },
+      {
+        imageName: "",
+        image: Gallery5,
+      },
+      {
+        imageName: "",
+        image: Gallery6,
+      },
+    ],
+  },
+  {
+    page: "WMU",
+    images: [
+      {
+        imageName: "",
+        image: Gallery1,
+      },
+      {
+        imageName: "",
+        image: Gallery2,
+      },
+      {
+        imageName: "",
+        image: Gallery3,
+      },
+      {
+        imageName: "",
+        image: Gallery4,
+      },
+      {
+        imageName: "",
+        image: Gallery5,
+      },
+      {
+        imageName: "",
+        image: Gallery6,
+      },
+    ],
+  },
+  {
+    page: "Hotel-Ministry",
+    images: [
+      {
+        imageName: "",
+        image: Gallery1,
+      },
+      {
+        imageName: "",
+        image: Gallery2,
+      },
+      {
+        imageName: "",
+        image: Gallery3,
+      },
+      {
+        imageName: "",
+        image: Gallery4,
+      },
+      {
+        imageName: "",
+        image: Gallery5,
+      },
+      {
+        imageName: "",
+        image: Gallery6,
+      },
+    ],
+  },
+  {
+    page: "Prison-Ministry",
+=======
+>>>>>>> main
     images: [
       {
         imageName: "",

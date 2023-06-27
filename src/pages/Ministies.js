@@ -4,43 +4,7 @@ import { Link } from "react-router-dom";
 import { __ministries } from "../utils/ministries";
 import { removeHyphen } from "../utils/fn";
 
-const Ministies = () => {
-  const [value, setValue] = useState("");
-  const [search, setSearch] = useState([]);
-  const [page, setPage] = useState(1);
-  const [hidePagination, setHidePagination] = useState(false);
-
-  const perPage = 3;
-  const total = __ministries.length;
-  const pages = Math.ceil(total / perPage);
-  const pageLimit = pages;
-  function changePage(e) {
-    const pageNumber = Number(e.target.textContent);
-    setPage(pageNumber);
-  }
-
-  const getPaginatedData = (page, perPage) => {
-    const startIndex = page * perPage - perPage;
-    const endIndex = startIndex + perPage;
-    return __ministries.slice(startIndex, endIndex);
-  };
-  const getPaginationGroup = (pages, pageLimit) => {
-    let start = Math.floor((pages - 1) / pageLimit) * pageLimit;
-    return new Array(pageLimit).fill().map((__, idx) => start + idx + 1);
-  };
-
-  const handleSearch = (e) => {
-    const val = e.target.value;
- 
-  
-    setValue(val);
-    const filteredSearch = __ministries.filter((d) => {
-      return d.name.toLowerCase().includes(val.toLowerCase());
-    });
-    setHidePagination(true);
-    setSearch(filteredSearch);
-  };
-
+const Ministies = () => { 
   return (
     <>
       <main>

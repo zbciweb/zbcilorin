@@ -19,7 +19,7 @@ const Donations = () => {
             </div>
 
             <div className="breadcrumb">
-              <div className="breadcrumb__home--link"><a href="index.html">Home</a></div>
+              <div className="breadcrumb__home--link"><Link to={'/'}>Home</Link></div>
               <span></span>
               <div className="breadcrumb__current--page-link">Donations</div>
             </div>
@@ -294,7 +294,7 @@ const Donations = () => {
             </div>
 
             <div className="paypal-link">
-              <Link href="" className="button" target="_blank">Complete your donation on PayPal</Link>
+              <Link  className="button" target="_blank">Complete your donation on PayPal</Link>
             </div>
 
           </form>

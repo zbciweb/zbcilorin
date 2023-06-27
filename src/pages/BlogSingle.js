@@ -27,9 +27,9 @@ const BlogSingle = () => {
             </div>
 
             <div className="breadcrumb">
-              <div className="breadcrumb__home--link"><a href="index.html">Home</a></div>
+              <div className="breadcrumb__home--link"><Link to={'/'}>Home</Link></div>
               <span></span>
-              <div><a href="blog.html">Blog</a></div>
+              <div><Link to={'/blog'}>Blog</Link></div>
               <span></span>
               <div className="breadcrumb__current--page-link">Living in the last days as Christians</div>
             </div>
@@ -129,10 +129,16 @@ const BlogSingle = () => {
                 <div className="sidebar__widget">
                   <div className="share">
                     <span>Share</span>
-                    <Link href="" title="Share it on Facebook"><i className="ri-facebook-line"></i></Link>
-                    <Link href="" title="Share it on LinkedIn"><i className="ri-linkedin-line"></i></Link>
-                    <Link href="" title="Share it on Twitter"><i className="ri-twitter-line"></i></Link>
-                    <Link href="" title="Email it"><i className="ri-mail-line"></i></Link>
+                    <Link to="https://web.facebook.com/zbcipage" target="_blank" rel="noopener noreferrer">
+                    <Link to="https://youtube.com" target="_blank" rel="noopener noreferrer">
+                      <i className="ri-youtube-line" ></i>
+                    </Link>
+                    <Link to='https://instagram.com' target="_blank" rel="noopener noreferrer">
+                      <i className="ri-instagram-line"></i>
+                    </Link>
+                      <i className="ri-facebook-line"></i>        
+                    </Link>
+                    <Link to="https://yahoo.com" target="_blank" rel="noopener noreferrer" title="Email it"><i className="ri-mail-line"></i></Link>
                   </div>
                 </div>
                 <div className="sidebar__widget">
@@ -165,7 +171,7 @@ const BlogSingle = () => {
                           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis excepturi sunt doloribus
                             consequuntur eveniet nostrum dicta, voluptate enim rem voluptatem.</p>
                         </div>
-                        <div className="blog__link"><a href="blog-single.html" className="button">Read more</a></div>
+                        <div className="blog__link"><Link to={'/blog-single'} className="button">Read more</Link></div>
                       </div>
 
                     </div>
@@ -199,7 +205,7 @@ const BlogSingle = () => {
                           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis excepturi sunt doloribus
                             consequuntur eveniet nostrum dicta, voluptate enim rem voluptatem.</p>
                         </div>
-                        <div className="blog__link"><a href="blog-single.html" className="button">Read more</a></div>
+                        <div className="blog__link"><Link to={'/blog-single'} className="button">Read more</Link></div>
                       </div>
 
                     </div>
@@ -231,7 +237,7 @@ const BlogSingle = () => {
                           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis excepturi sunt doloribus
                             consequuntur eveniet nostrum dicta, voluptate enim rem voluptatem.</p>
                         </div>
-                        <div className="blog__link"><a href="blog-single.html" className="button">Read more</a></div>
+                        <div className="blog__link"><Link to={'/blog-single'} className="button">Read more</Link></div>
                       </div>
 
                     </div>
@@ -291,7 +297,7 @@ const BlogSingle = () => {
                   quaerat vero aliquid sunt fugiat nisi!</p>
 
               </div>
-              <div className="comments__reply--link"><Link href="#" className="uppercase bold">Reply</Link></div>
+              <div className="comments__reply--link"><Link className="uppercase bold">Reply</Link></div>
 
              
               <div className="comments__box comments__box--reply">
@@ -309,7 +315,7 @@ const BlogSingle = () => {
 
                 </div>
 
-                <div className="comments__reply--link"><Link href="#" className="uppercase bold">Reply</Link></div>
+                <div className="comments__reply--link"><Link className="uppercase bold">Reply</Link></div>
 
               </div>
 
@@ -333,7 +339,7 @@ const BlogSingle = () => {
 
               </div>
 
-              <div className="comments__reply--link"><Link href="#" className="uppercase bold">Reply</Link></div>
+              <div className="comments__reply--link"><Link className="uppercase bold">Reply</Link></div>
 
             </div>
 

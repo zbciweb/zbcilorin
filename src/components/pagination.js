@@ -150,4 +150,8 @@ function Pagination() {
   );
 }
 
+<<<<<<< HEAD
 export default Pagination;
+=======
+export default Pagination;
+>>>>>>> main
