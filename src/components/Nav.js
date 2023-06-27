@@ -67,7 +67,7 @@ window.addEventListener('scroll', changeBackground);
 
             <li className="header__list"><Link to={'/about'}>About</Link></li>
 
-            <li className="header__list">
+            {/* <li className="header__list">
               <Link className="dropdown-link">Sermons</Link>
 
               <div className="header__submenu">
@@ -76,7 +76,7 @@ window.addEventListener('scroll', changeBackground);
                 </ul>
 
               </div>
-            </li>
+            </li> */}
 
             <li className="header__list">
               <Link className="dropdown-link">Ministries</Link>
@@ -90,7 +90,7 @@ window.addEventListener('scroll', changeBackground);
               </div>
             </li>
 
-            <li className="header__list">
+            {/* <li className="header__list">
               <Link className="dropdown-link">Events</Link>
 
               <div className="header__submenu">
@@ -100,7 +100,7 @@ window.addEventListener('scroll', changeBackground);
                
                 </ul>
               </div>
-            </li>
+            </li> */}
 
             {/* <li className="header__list">
               <Link href="" className="dropdown-link">Pages</Link>
@@ -116,7 +116,7 @@ window.addEventListener('scroll', changeBackground);
               </div>
             </li> */}
 
-            <li className="header__list">
+            {/* <li className="header__list">
               <Link href="" className="dropdown-link">Blog</Link>
 
               <div className="header__submenu">
@@ -127,7 +127,7 @@ window.addEventListener('scroll', changeBackground);
 
                 </ul>
               </div>
-            </li>
+            </li> */}
 
             <li className="header__list"><Link to={'/contact'}>Contact</Link></li>
             
