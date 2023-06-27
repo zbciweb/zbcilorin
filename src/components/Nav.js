@@ -21,7 +21,7 @@ window.addEventListener('scroll', changeBackground);
 
   return (
     <div>
-    <header className={color ? "header fixed dark-text white-bg" : "header transparent fixed light-text" } 
+    <header className={color ? "header fixed transparent dark-text white-bg" : "header transparent fixed light-text" } 
     // data-onscroll-classes="dark-text white-bg"
    data-onscroll-logo={LogoLight}>
 
