@@ -1,7 +1,8 @@
-import React from "react"; 
+import React from "react";
 import TimeLocation from "../components/TimeLocation";
 import { Link } from "react-router-dom";
-
+import ContactForm from "../components/forms/contactForm";
+ 
 const Contact = () => {
   return (
     <>
@@ -19,7 +20,7 @@ const Contact = () => {
 
               <div className="breadcrumb">
                 <div className="breadcrumb__home--link">
-                  <Link to={'/'}>Home</Link>
+                  <Link to={"/"}>Home</Link>
                 </div>
                 <span></span>
                 <div className="breadcrumb__current--page-link">Contact</div>
@@ -34,75 +35,7 @@ const Contact = () => {
           <div className="container">
             <div className="row d-flex justify-content-center align-items-center">
               <div className="flex-md-8">
-                <form action="#" className="form contact__form">
-                  <div className="row">
-                    <div className="flex-md-6 ">
-                      <div className="form__group">
-                        <label for="fname" className="form__label">
-                          Your first name{" "}
-                          <span className="color-danger">*</span>
-                        </label>
-                        <input
-                          type="text"
-                          id="fname"
-                          className="form__input"
-                          name="fname"
-                          placeholder="Enter your full name"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="flex-md-6 mar-b-sm">
-                      <div className="form__group">
-                        <label for="email-2" className="form__label">
-                          Your email address{" "}
-                          <span className="color-danger">*</span>
-                        </label>
-                        <input
-                          type="email"
-                          id="email-2"
-                          className="form__input"
-                          name="email"
-                          placeholder="Enter your email address"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="flex-md-12 mar-b-sm">
-                      <div className="form__group">
-                        <label for="subject" className="form__label">
-                          Subject <span className="color-danger">*</span>
-                        </label>
-                        <input
-                          type="text"
-                          id="subject"
-                          className="form__input"
-                          name="subject"
-                          placeholder="Enter your subject"
-                        />
-                      </div>
-                    </div>
-                    <div className="flex-md-12 mar-b-sm">
-                      <div className="form__group">
-                        <label for="message-2" className="form__label">
-                          Message <span className="color-danger">*</span>
-                        </label>
-                        <textarea
-                          name="message"
-                          id="message-2"
-                          className="form__textarea form__input"
-                          placeholder="Enter your message..."
-                        ></textarea>
-                      </div>
-                    </div>
-
-                    <div className="flex-md-12 mar-b-sm text-center">
-                      <button className="button" type="submit" name="submit">
-                        Send message
-                      </button>
-                    </div>
-                  </div>
-                </form>
+            <ContactForm/>
               </div>
             </div>
           </div>

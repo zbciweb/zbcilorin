@@ -14,7 +14,8 @@ import Slider from "../components/Slider";
 import AOS from "aos";
 import TimeLocation from "../components/TimeLocation";
 import Gallery from "../components/Gallery";
-
+import Subscribe from "../components/forms/Subscribe";
+ 
 const HomeMain = () => {
   AOS.init();
   return (
@@ -582,29 +583,7 @@ const HomeMain = () => {
               <span>Stay in touch</span>
               <h2>Join our mailing list</h2>
             </div>
-
-            <form action="#" className="form">
-              <div className="row">
-                <div className="flex-md-9">
-                  <div className="form__group">
-                    <input
-                      type="email"
-                      className="form__input"
-                      placeholder="Enter your valid email address"
-                    />
-                  </div>
-                </div>
-
-                <div className="flex-md-3">
-                  <button
-                    type="submit"
-                    className="button button-block-sm form__submit"
-                  >
-                    Subscribe today
-                  </button>
-                </div>
-              </div>
-            </form>
+            <Subscribe />
           </div>
         </div>
 

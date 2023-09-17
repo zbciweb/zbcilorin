@@ -1,6 +1,6 @@
 // CONTACT ============================= //
 .contact__form {
-  &.working-form {
+ 
     .error {
       color: $danger-color;
     }
@@ -8,5 +8,5 @@
     .form__input.error {
       border-color: $danger-color;
     }
-  }
+ 
 }
