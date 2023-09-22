@@ -9,25 +9,44 @@ type Inputs = {
   subject: string;
   message: string;
 };
+type Response = {
+  status: number;
+  statusText: string
+}
 
 const ContactForm = () => {
   const dispatch: any = useDispatch();
+  const [response, setResponse] = useState<string | null>(null);
 
-  const formResp: [] = useSelector((state: any) => state.contactForm)
-  console.log(formResp)
+ 
   const {
     register,
-    handleSubmit,
-    watch,
+    handleSubmit,  
+    reset,
     formState: { errors },
   } = useForm<Inputs>();
-  const onSubmit: SubmitHandler<Inputs> = (data) => {
-   dispatch(createCTA(data))
-    
+
+
+  const onSubmit: SubmitHandler<Inputs> = async (data) => {
+    try {
+      const resp: Response = await dispatch(createCTA(data));
+      if (resp.status === 201) { 
+        setResponse(resp.statusText || null);
+        setTimeout(() => {
+          setResponse( null);
+        }, 5000);       
+        reset()
+      }else {
+        setResponse(resp.statusText)
+      }
+    } catch (error) {
+      
+    }
   };
   return (
     <>
       <form onSubmit={handleSubmit(onSubmit)} className="form contact__form">
+     
         <div className="row">
           <div className="flex-md-6 ">
             <div className="form__group">
@@ -95,6 +114,7 @@ const ContactForm = () => {
           </div>
 
           <div className="flex-md-12 mar-b-sm text-center">
+          <p>{response}</p>
             <button className="button" type="submit" name="submit">
               Send message
             </button>

@@ -19,10 +19,10 @@ const TimeLocation = () => {
                       <div className="info">
                         <div className="time">
                         <span>8:00 am (Pre-Service Intercessors' Prayer Meeting)</span>
-              <span>8:00 am - 9:30 am (First (Youth) Worship Service)</span>
-              <span>9:30 am - 10:30 am (Sunday school)</span>
-              <span>10:30 am - 12:00 pm (Second Worship Service)</span>
-              <span>5:00 pm (Home Fellowship: Last Two Sundays of Every Month)</span>
+              <span>8:00 am - 9:30 am (First Worship Service)</span>
+              <span>9:30 am - 10:30 am (Sunday school Hour)</span>
+              <span>10:30 am - 12:00 pm (Second Worship Service in English & Yoruba)</span>
+              <span>5:00 pm (Home Fellowship: Every Sundays of the Month)</span>
                         </div>
                       </div>
                     </div>
@@ -33,12 +33,12 @@ const TimeLocation = () => {
                       <div className="day bold">Wednesday</div>
                       <div className="info">
                         <div className="time">
-                          <span>5:00pm Miracle Prayer Service</span>
+                          <span>5:00pm Bible Study and Prayer Service</span>
                           <span>5:00pm Home Fellowship Leaders' Briefing</span>
-                          <span>
-                            5:00pm Fasting & Prayer Meeting: FIrst Wed. of every
-                            month
-                          </span>
+                          <span>5:00pm Fasting & Prayer (Begins the Month with the Lord) -First 3 days of the Month</span>
+                          <span>5:00pm Moment of refreshing- Last Friday of the month</span>
+                          <span>1:00pm Time of refreshing @ Sobi FM </span>
+                          <span>101.9 Every Wednesday</span>
                         </div>
                       </div>
                     </div>
