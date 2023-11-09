@@ -83,16 +83,16 @@ window.addEventListener('scroll', changeBackground);
             </li> */}
 
             <li className="header__list">
-              <Link className="dropdown-link">Ministries</Link>
+              <Link to={'/ministries'} className="dropdown-link">Ministries</Link>
 
-              <div className="header__submenu">
+              {/* <div className="header__submenu">
                 <ul>
 
                   <li className="header__list"><Link to={'/ministries'}>Ministries</Link></li>
                   <li className="header__list"><Link to={'/ministries/ministries-singles'}>Ministries single</Link></li>
 
                 </ul>
-              </div>
+              </div> */}
             </li>
 
             {/* <li className="header__list">
