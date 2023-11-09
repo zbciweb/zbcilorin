@@ -5,7 +5,6 @@ import { removeHyphen, selectRandomMembers } from "../utils/fn";
 const Gallery = ({ page }) => {
   
   const matchingEntry = galleryImages.find((entry) => entry.page === page);
-
   const randomGalleryImage= selectRandomMembers(matchingEntry.images, 8)
  
   

@@ -36,8 +36,12 @@ const Ministies = () => {
     const filteredSearch = __ministries.filter((d) => {
       return d.name.toLowerCase().includes(val.toLowerCase());
     });
-    setHidePagination(true);
     setSearch(filteredSearch);
+    if (filteredSearch.length <= perPage) {
+      setHidePagination(true);
+    } else {
+      setHidePagination(false);
+    }
   };
 
   return (
@@ -175,7 +179,7 @@ const Ministies = () => {
                 )}
               </div>
             </div>
-            {
+            {!hidePagination && (
               <div className="pagination">
                 {page >= 2 ? (
                   <span className={`pagination__arrow`}>
@@ -199,6 +203,7 @@ const Ministies = () => {
                     </Link>
                   </span>
                 ))}
+
                 {page === pages ? (
                   ""
                 ) : (
@@ -209,7 +214,7 @@ const Ministies = () => {
                   </span>
                 )}
               </div>
-            }
+            )}
           </div>
         </div>
         <TimeLocation />

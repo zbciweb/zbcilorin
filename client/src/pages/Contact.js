@@ -1,7 +1,7 @@
 import React from "react";
 import TimeLocation from "../components/TimeLocation";
 import { Link } from "react-router-dom";
-import ContactForm from "../components/forms/contactForm";
+// import ContactForm from "../components/forms/contactForm";
  
 const Contact = () => {
   return (
@@ -35,7 +35,7 @@ const Contact = () => {
           <div className="container">
             <div className="row d-flex justify-content-center align-items-center">
               <div className="flex-md-8">
-            <ContactForm/>
+            {/* <ContactForm/> */}
               </div>
             </div>
           </div>

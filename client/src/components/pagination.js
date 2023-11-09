@@ -149,9 +149,5 @@ function Pagination() {
     </div>
   );
 }
-
-<<<<<<< HEAD
+ 
 export default Pagination;
-=======
-export default Pagination;
->>>>>>> main

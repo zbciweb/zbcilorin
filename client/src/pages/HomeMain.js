@@ -14,7 +14,6 @@ import Slider from "../components/Slider";
 import AOS from "aos";
 import TimeLocation from "../components/TimeLocation";
 import Gallery from "../components/Gallery";
-import Subscribe from "../components/forms/Subscribe";
  
 const HomeMain = () => {
   AOS.init();
@@ -583,7 +582,8 @@ const HomeMain = () => {
               <span>Stay in touch</span>
               <h2>Join our mailing list</h2>
             </div>
-            <Subscribe />
+         {/* Subscribe can come in here */}
+         
           </div>
         </div>
 
