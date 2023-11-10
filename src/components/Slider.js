@@ -6,22 +6,22 @@ import { Link } from "react-router-dom";
 import hero1 from "../assets/images/hero-1.jpg";
 import hero2 from "../assets/images/hero-2.jpg";
 
+
 const Sliders = () => {
   const content = [
     {
       greetings: "We are glad you are here",
-      title: "Welcome to Zion",
-      subtitle: "Grace and Peace",
-      text:
-        "The City of God",
+      title: "Welcome to ZION",
+      subtitle: "Community of Grace and Peace",
+      text: "The City of the Lord",
+
       background: hero1,
       link: "/about",
     },
     {
       greetings: "We are glad you are here",
       title: "Fellowship with us",
-      text:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea veniam vitae repudiandae, reprehenderit ducimus at.",
+      text: "",
       background: hero2,
       link: "#worshiptime",
     },
@@ -48,7 +48,7 @@ const Sliders = () => {
                   <div className="slider__overlay">
                     <img
                       src={item.background}
-                      style={{ 
+                      style={{
                         position: "absolute",
                         height: "100%",
                         width: "100vw",

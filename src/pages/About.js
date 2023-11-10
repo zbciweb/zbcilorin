@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 import TimeLocation from "../components/TimeLocation";
 import PastorandDiaconates from "../components/about/PastorandDiaconates";
 
@@ -13,10 +13,10 @@ const About = () => {
             <div className="banner__content">
               <div className="banner__heading">
                 <h1>About us</h1>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Numquam fugit
-                </p>
+                </p> */}
               </div>
 
               <div className="breadcrumb">
@@ -41,25 +41,12 @@ const About = () => {
                   </div>
 
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Voluptate ut delectus qui quos alias dignissimos
-                    reprehenderit explicabo repellendus. Ipsam, accusantium
-                    tenetur? Iste numquam odio voluptatem exercitationem
-                    officiis debitis aliquam quis.
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Voluptate ut delectus qui quos alias dignissimos
-                    reprehenderit explicabo repellendus. Ipsam, accusantium
-                    tenetur? Iste numquam odio voluptatem exercitationem
-                    officiis debitis aliquam quis.
-                  </p>
-                  <p className="mar-b-sm">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Voluptate ut delectus qui quos alias dignissimos
-                    reprehenderit explicabo repellendus. Ipsam, accusantium
-                    tenetur? Iste numquam odio voluptatem exercitationem
-                    officiis debitis aliquam quis.
+                    ZION BAPTIST CHURCH, ADEWOLE HOUSING ESTATE, ILORIN Exists
+                    for HARVESTING OF SOULS aggressively into God’s kingdom
+                    MOULDING LIVES to conform to the image of Christ DEVELOPING
+                    A SENSE of love and care among brethren DEMONSTRATING GOD’S
+                    LOVE through service to believers and the lost CELEBRATING
+                    GOD’S PRESENCE through spirit filled worship experience
                   </p>
                 </div>
 
@@ -70,25 +57,8 @@ const About = () => {
                   </div>
 
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Voluptate ut delectus qui quos alias dignissimos
-                    reprehenderit explicabo repellendus. Ipsam, accusantium
-                    tenetur? Iste numquam odio voluptatem exercitationem
-                    officiis debitis aliquam quis.
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Voluptate ut delectus qui quos alias dignissimos
-                    reprehenderit explicabo repellendus. Ipsam, accusantium
-                    tenetur? Iste numquam odio voluptatem exercitationem
-                    officiis debitis aliquam quis.
-                  </p>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Voluptate ut delectus qui quos alias dignissimos
-                    reprehenderit explicabo repellendus. Ipsam, accusantium
-                    tenetur? Iste numquam odio voluptatem exercitationem
-                    officiis debitis aliquam quis.
+                    Knowing Christ and making Him Known all over the world
+                    -Phil. 3:10; Hab.2:14
                   </p>
                 </div>
               </div>
@@ -98,51 +68,64 @@ const About = () => {
         <section className="our-belief default-section-spacing text-center">
           <div className="container">
             <div className="section-heading">
-              <span>Our belief</span>
-              <h2>Our faith - what we believe</h2>
+              <span>OUR GOALS</span>
+              <h2>
+                To Worship, to Fellowship, to Disciple, to Evangelized and
+                stewardship
+              </h2>
             </div>
 
             <div className="row">
-              <div className="flex-md-6 flex-lg-3 mar-b-sm">
+              <div className="flex-md-6 flex-lg-4 mar-b-sm">
                 <div className="our-belief__box">
                   <div className="heading">
-                    <h3>The Bible</h3>
+                    <h3>GOD’S word to the LOST</h3>
                   </div>
 
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Blanditiis, accusamus.
+                    All have sinned-Rm.3:23 Consequence of sin is sure – Rm.6:23
+                    You cannot save yourself –Eph.2:8-9 God’s Salvation is also
+                    for you – Jn. 3:16 Come as you are – Isa. 1:18 Confess Him
+                    as your savior and Lord – Rm- Rm. 10:9 Follow Jesus in
+                    Baptism – Col.2:13; Rev 6:9 Worship with His people – Heb.
+                    10:25
                   </p>
                 </div>
               </div>
 
-              <div className="flex-md-6 flex-lg-3 mar-b-sm">
+              <div className="flex-md-6 flex-lg-4 mar-b-sm">
                 <div className="our-belief__box">
                   <div className="heading">
-                    <h3>The Holy Trinity</h3>
+                    <h3>GOD’S Word for the SAVED</h3>
                   </div>
 
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Blanditiis, accusamus.
+                    Jesus paid the full penalty for you – 1 Pet. 2:24 His
+                    righteousness is now placed to your credit – 1 Cor. 1:30
+                    Contribute as God prospers you – Mal.3:8, 1 Cor. 8:7 Pray
+                    and Study the Bible daily – 2 Tim. 2:15; 3:16 Confess to God
+                    every sin – Jn. 1:9 Practice the presence of Christ –
+                    Heb.13:5
                   </p>
                 </div>
               </div>
 
-              <div className="flex-md-6 flex-lg-3">
+              <div className="flex-md-6 flex-lg-4">
                 <div className="our-belief__box">
                   <div className="heading">
-                    <h3>The Blessed Hope</h3>
+                    <h3>OUR CORE VALUE</h3>
                   </div>
 
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Blanditiis, accusamus.
+                    Soul Competency Priesthood of all Believers Congregational
+                    Polity Unity in Diversity Responsible autonomy of a local
+                    Baptist Church Christian Virtues Righteousness The Great
+                    Commission Development of Human Resources
                   </p>
                 </div>
               </div>
 
-              <div className="flex-md-6 flex-lg-3">
+              {/* <div className="flex-md-6 flex-lg-3">
                 <div className="our-belief__box">
                   <div className="heading">
                     <h3>Sanctification</h3>
@@ -153,7 +136,7 @@ const About = () => {
                     Blanditiis, accusamus.
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
@@ -205,7 +188,6 @@ const About = () => {
         </section>
         <TimeLocation />
       </main>
-     
     </div>
   );
 };
