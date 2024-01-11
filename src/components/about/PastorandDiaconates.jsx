@@ -27,7 +27,7 @@ function PastorandDiaconates() {
                     <div className="staff__title">{pastors[0].disposition}</div>
                   </div>
 
-                  <div className="sidebar">
+                  {/* <div className="sidebar">
                     <div className="sidebar__widget">
                       <div className="share">
                         <Link
@@ -60,7 +60,7 @@ function PastorandDiaconates() {
                         </Link>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -99,11 +99,11 @@ function PastorandDiaconates() {
               </div>
             </div>
           </div>
-              <div className=" mar-t-sm">
-                <div className="section-heading text-center">
-                  <span>Other Pastors</span>
-                </div>
-              </div>
+          <div className=" mar-t-sm">
+            <div className="section-heading text-center">
+              <span>Other Pastors</span>
+            </div>
+          </div>
           <div className="row align-items-center mar-t-sm">
             <div className="flex-md-6 flex-lg-4">
               <div className="card card--picture staff">
@@ -121,7 +121,7 @@ function PastorandDiaconates() {
                     <div className="staff__title">{pastors[1].disposition}</div>
                   </div>
 
-                  <div className="sidebar">
+                  {/* <div className="sidebar">
                     <div className="sidebar__widget">
                       <div className="share">
                         <Link
@@ -154,7 +154,7 @@ function PastorandDiaconates() {
                         </Link>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -174,40 +174,7 @@ function PastorandDiaconates() {
                     <div className="staff__title">{pastors[2].disposition}</div>
                   </div>
 
-                  <div className="sidebar">
-                    <div className="sidebar__widget">
-                      <div className="share">
-                        <Link
-                          to={pastors[2].facebook}
-                          target="_blank"
-                          rel="noreferrer noopener"
-                          title={`Contact ${pastors[2].name} on Facebook `}
-                        >
-                          <i className="ri-facebook-line"></i>
-                        </Link>
-                        <Link
-                          to={`tel:${pastors[2].phoneNumber}`}
-                          title={`Call ${pastors[2].name}  `}
-                        >
-                          <i className="ri-phone-line"></i>
-                        </Link>
-                        <Link
-                          to={pastors[2].whatsapp}
-                          target="_blank"
-                          rel="noreferrer noopener"
-                          title={`Contact ${pastors[2].name} on WhatsApp `}
-                        >
-                          <i className="ri-whatsapp-line"></i>
-                        </Link>
-                        <Link
-                          to={`mailto:${pastors[2].email}`}
-                          title={`Email ${pastors[2].name} `}
-                        >
-                          <i className="ri-mail-line"></i>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
+              
                 </div>
               </div>
             </div>
@@ -227,40 +194,7 @@ function PastorandDiaconates() {
                     <div className="staff__title">{pastors[3].disposition}</div>
                   </div>
 
-                  <div className="sidebar">
-                    <div className="sidebar__widget">
-                      <div className="share">
-                        <Link
-                          to={pastors[3].facebook}
-                          target="_blank"
-                          rel="noreferrer noopener"
-                          title={`Contact ${pastors[3].name} on Facebook `}
-                        >
-                          <i className="ri-facebook-line"></i>
-                        </Link>
-                        <Link
-                          to={`tel:${pastors[3].phoneNumber}`}
-                          title={`Call ${pastors[3].name}  `}
-                        >
-                          <i className="ri-phone-line"></i>
-                        </Link>
-                        <Link
-                          to={pastors[3].whatsapp}
-                          target="_blank"
-                          rel="noreferrer noopener"
-                          title={`Contact ${pastors[3].name} on WhatsApp `}
-                        >
-                          <i className="ri-whatsapp-line"></i>
-                        </Link>
-                        <Link
-                          to={`mailto:${pastors[3].email}`}
-                          title={`Email ${pastors[3].name} `}
-                        >
-                          <i className="ri-mail-line"></i>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
+                 
                 </div>
               </div>
             </div>
@@ -274,9 +208,9 @@ function PastorandDiaconates() {
             <h2>THE DIACONATES</h2>
           </div>
 
-          <div className="row">
+          <div className="row d-flex">
             {diaconates.map((d, i) => (
-              <div className="flex-md-6 flex-lg-4 mar-b-sm" key={i}>
+              <div className="flex-md-6 flex-lg-4 mar-b-sm align-items-center" key={i}>
                 <div className="card card--picture staff">
                   <div className="card__header">
                     <img src={d.image} alt="A man" className="card__image" />

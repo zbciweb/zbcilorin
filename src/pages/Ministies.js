@@ -124,7 +124,7 @@ const Ministies = () => {
                             <h3>{removeHyphen(d.name)}</h3>
                           </div>
 
-                          <div className="ministry__content">
+                         {/*  <div className="ministry__content">
                             <div className="excerpt">
                               <p>{d.excerpt}</p>
                             </div>
@@ -136,7 +136,7 @@ const Ministies = () => {
                             >
                               Learn More
                             </Link>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </div>

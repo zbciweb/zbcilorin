@@ -1,16 +1,17 @@
-import pastor from "../assets/images/pastor@1.5x.jpg";
-import staff1 from "../assets/images/staff-1@1.5x.jpg";
-import pastor1 from "../assets/images/staff-1@1.6x.jpg";
-import pastor2 from "../assets/images/staff-1@1.7x.jpg";
-import staff2 from "../assets/images/staff-2@1.5x.jpg";
-import staff3 from "../assets/images/staff-3@1.5x.jpg";
-import staff4 from "../assets/images/staff-4@1.5x.jpg";
-import staff5 from "../assets/images/staff-5@1.5x.jpg";
-import staff6 from "../assets/images/staff-6@1.5x.jpg";
-import staff7 from "../assets/images/staff-7@1.5x.jpg";
-import staff8 from "../assets/images/staff-8@1.5x.jpg";
-import staff9 from "../assets/images/staff-9@1.5x.jpg";
+import pastor from "../assets/images/pastors&diaconates/pastor@1.5x.jpg";
+import staff1 from "../assets/images/pastors&diaconates/staff-1@1.5x.jpg";
+import pastor1 from "../assets/images/pastors&diaconates/staff-1@1.6x.jpg";
+import pastor2 from "../assets/images/pastors&diaconates/staff-1@1.7x.jpg";
+import staff2 from "../assets/images/pastors&diaconates/staff-2@1.5x.jpg";
+import staff3 from "../assets/images/pastors&diaconates/staff-3@1.5x.jpg";
+import staff4 from "../assets/images/pastors&diaconates/staff-4@1.5x.jpg";
+import staff5 from "../assets/images/pastors&diaconates/staff-5@1.5x.jpg";
+import staff6 from "../assets/images/pastors&diaconates/staff-6@1.5x.jpg";
+import staff7 from "../assets/images/pastors&diaconates/staff-7@1.5x.jpg";
+import staff8 from "../assets/images/pastors&diaconates/staff-8@1.5x.jpg";
+import staff9 from "../assets/images/pastors&diaconates/staff-9@1.5x.jpg";
 export const pastors = [
+  
   {
     name: "Rev'd Dr. Festus Olu Ade Alade",
     disposition: "Church Pastor",
@@ -39,7 +40,7 @@ export const pastors = [
     facebook: "https://web.facebook.com/ajala.babatundesimeon.1",
   },
   {
-    name: "Rev. J.O Aderintor",
+    name: "Rev. J.O Aderinto",
     disposition: "Mission Minister",
     image: pastor2,
     email: "test@test.com",

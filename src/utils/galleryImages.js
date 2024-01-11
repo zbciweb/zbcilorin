@@ -1,12 +1,12 @@
-import Gallery1 from "../assets/images/gallery-1@1.5x.jpg";
-import Gallery2 from "../assets/images/gallery-2@1.5x.jpg";
-import Gallery3 from "../assets/images/gallery-3@2x.jpg";
-import Gallery4 from "../assets/images/gallery-4@2x.jpg";
-import Gallery5 from "../assets/images/gallery-4@1.5x.jpg";
-import Gallery6 from "../assets/images/gallery-5@2x.jpg";
-import Gallery7 from "../assets/images/gallery-5@1.5x.jpg";
-import Gallery8 from "../assets/images/gallery-6@2x.jpg";
-import Gallery9 from "../assets/images/gallery-7@1.5x.jpg";
+import Gallery1 from "../assets/images/gallery/gallery-1@1.5x.jpg";
+import Gallery2 from "../assets/images/gallery/gallery-2@1.5x.jpg";
+import Gallery3 from "../assets/images/gallery/gallery-3@2x.jpg";
+import Gallery4 from "../assets/images/gallery/gallery-4@2x.jpg";
+import Gallery5 from "../assets/images/gallery/gallery-4@1.5x.jpg";
+import Gallery6 from "../assets/images/gallery/gallery-5@2x.jpg";
+import Gallery7 from "../assets/images/gallery/gallery-5@1.5x.jpg";
+import Gallery8 from "../assets/images/gallery/gallery-6@2x.jpg";
+import Gallery9 from "../assets/images/gallery/gallery-7@1.5x.jpg";
 import Gallery10 from "../assets/images/gallery-8@1.5x.jpg";
 
 export const galleryImages = [

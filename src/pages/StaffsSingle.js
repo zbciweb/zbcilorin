@@ -1,6 +1,6 @@
 import React from "react";
 import TimeLocation from "../components/TimeLocation";
-import staff5 from "../assets/images/staff-5@1.5x.jpg";
+import staff5 from "../assets/images/gallery/gallery-1@1.5x.jpg";
 import { Link } from "react-router-dom";
 
 const StaffsSingle = () => {

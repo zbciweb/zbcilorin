@@ -8,15 +8,13 @@ const About = () => {
   return (
     <div>
       <main>
+        
         <section className="banner full-width">
           <div className="container">
             <div className="banner__content">
               <div className="banner__heading">
                 <h1>About us</h1>
-                {/* <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Numquam fugit
-                </p> */}
+                
               </div>
 
               <div className="breadcrumb">
@@ -82,12 +80,12 @@ const About = () => {
                     <h3>GOD’S word to the LOST</h3>
                   </div>
 
-                  <p>
-                    All have sinned-Rm.3:23 Consequence of sin is sure – Rm.6:23
-                    You cannot save yourself –Eph.2:8-9 God’s Salvation is also
-                    for you – Jn. 3:16 Come as you are – Isa. 1:18 Confess Him
-                    as your savior and Lord – Rm- Rm. 10:9 Follow Jesus in
-                    Baptism – Col.2:13; Rev 6:9 Worship with His people – Heb.
+                  <p >
+                    All have sinned-Rm.3:23 Consequence of sin is sure – Rm.6:23<br/>
+                    You cannot save yourself –Eph.2:8-9 <br/>God’s Salvation is also
+                    for you – Jn. 3:16 <br/>Come as you are – Isa. 1:18 <br/> Confess Him
+                    as your savior and Lord – Rm- Rm. 10:9 <br/>Follow Jesus in
+                    Baptism – Col.2:13; Rev 6:9 <br/>Worship with His people – Heb.
                     10:25
                   </p>
                 </div>
@@ -100,11 +98,11 @@ const About = () => {
                   </div>
 
                   <p>
-                    Jesus paid the full penalty for you – 1 Pet. 2:24 His
-                    righteousness is now placed to your credit – 1 Cor. 1:30
-                    Contribute as God prospers you – Mal.3:8, 1 Cor. 8:7 Pray
-                    and Study the Bible daily – 2 Tim. 2:15; 3:16 Confess to God
-                    every sin – Jn. 1:9 Practice the presence of Christ –
+                    Jesus paid the full penalty for you – 1 Pet. 2:24 <br/> His
+                    righteousness is now placed to your credit – 1 Cor. 1:30 <br/>
+                    Contribute as God prospers you – Mal.3:8, 1 Cor. 8:7 <br/>Pray
+                    and Study the Bible daily – 2 Tim. 2:15; 3:16 <br/> Confess to God
+                    every sin – Jn. 1:9 <br/> Practice the presence of Christ –
                     Heb.13:5
                   </p>
                 </div>

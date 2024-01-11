@@ -4,8 +4,8 @@ import sermon3 from '../assets/images/sermon-3@1.5x.jpg'
 import ministry4 from '../assets/images/ministry-4@1.5x.jpg'
 import event1 from '../assets/images/event-1@1.5x.jpg'
 import post2 from '../assets/images/post-2@1.5x.jpg'
-import staff1 from '../assets/images/staff-1@1.5x.jpg'
-import gallery1 from '../assets/images/gallery-1@1.5x.jpg'
+import staff1 from '../assets/images/pastors&diaconates/staff-1@1.5x.jpg'
+import gallery1 from '../assets/images/gallery/gallery-1@1.5x.jpg'
 import { Link } from 'react-router-dom'
 
 const Elements = () => {
@@ -76,7 +76,7 @@ const Elements = () => {
               <nav className="header__nav bottom-nav">
 
                 <div className="header__logo brand--logo">
-                  <Link><img src={logo} alt="Greater Love Church"/></Link>
+                  <Link><img src={logo} alt="Zion Baptist Church"/></Link>
                 </div>
 
                 <div className="header__mobile--opener hide-on-lg">

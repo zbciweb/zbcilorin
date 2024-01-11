@@ -14,7 +14,7 @@ import Slider from "../components/Slider";
 import AOS from "aos";
 import TimeLocation from "../components/TimeLocation";
 import Gallery from "../components/Gallery";
- 
+
 const HomeMain = () => {
   AOS.init();
   return (
@@ -28,7 +28,7 @@ const HomeMain = () => {
       <div className="container">
         <div className="hero__content text-center">
           <span className="hero__intro">We are glad you are here</span>
-          <h1>Welcome to Greater Love Church</h1>
+          <h1>Welcome to Zion Baptist Church</h1>
           <p className="leading">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea veniam vitae
             repudiandae, reprehenderit ducimus at.</p>
 
@@ -66,7 +66,7 @@ const HomeMain = () => {
   </div>
 
 </section> */}
-        <div className="next-event default-section-spacing background-primary">
+        {/* <div className="next-event default-section-spacing background-primary">
           <div className="container">
             <div className="row align-items-center">
               <div className="flex-md-9">
@@ -105,16 +105,15 @@ const HomeMain = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <section className="last-sermon default-section-spacing">
+        {/*  <section className="last-sermon default-section-spacing">
           <div className="container">
             <div className="row align-items-center">
               <div className="flex-md-6 flex-lg-5">
                 <div
                   className="card sermon"
-                  data-aos="fade-up"
-                  data-aos-offset="400"
+                  
                 >
                   <div className="card__header">
                     <img
@@ -142,10 +141,7 @@ const HomeMain = () => {
 
               <div className="flex-md-6 flex-lg-7">
                 <div
-                  className="last-sermon__content"
-                  data-aos="fade-up"
-                  data-aos-offset="300"
-                  data-aos-delay="300"
+                  className="last-sermon__content"                 
                 >
                   <div className="section-heading">
                     <span>Sermons</span>
@@ -190,7 +186,7 @@ const HomeMain = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section className="our-ministries default-section-spacing background-lighter-gray">
           <div className="container">
@@ -434,7 +430,7 @@ const HomeMain = () => {
           </div>
         </section>
 
-        <section className="recent-articles default-section-spacing text-center">
+        {/* <section className="recent-articles default-section-spacing text-center">
           <div className="container">
             <div className="section-heading">
               <span>Our blog</span>
@@ -575,17 +571,16 @@ const HomeMain = () => {
             </div>
           </div>
         </section>
-
-        <div className="subscription default-section-spacing background-lighter-gray">
+ */}
+      {/*   <div className="subscription default-section-spacing background-lighter-gray">
           <div className="container">
             <div className="section-heading">
               <span>Stay in touch</span>
               <h2>Join our mailing list</h2>
             </div>
-         {/* Subscribe can come in here */}
-         
+        
           </div>
-        </div>
+        </div> */}
 
         <TimeLocation />
       </main>
