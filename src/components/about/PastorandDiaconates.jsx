@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { diaconates, pastors } from "../../utils/pastors&diaconates";
 function PastorandDiaconates() {
   return (
