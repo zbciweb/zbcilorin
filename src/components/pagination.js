@@ -4,29 +4,29 @@ import { __ministries } from "../utils/ministries";
 import { removeHyphen } from "../utils/fn";
 
 function Pagination() {
-  const [page, setPage] = useState(1);
+  const [page, ] = useState(1);
 
   
 
   const perPage = 3;
-  const total = __ministries.length;
-  const pages = Math.ceil(total / perPage);
-  const pageLimit = pages;
+  // const total = __ministries.length;
+  // const pages = Math.ceil(total / perPage);
+  // const pageLimit = pages;
 
-  function changePage(e) {
-    const pageNumber = Number(e.target.textContent);
-    setPage(pageNumber);
-  }
+  // function changePage(e) {
+  //   const pageNumber = Number(e.target.textContent);
+  //   setPage(pageNumber);
+  // }
 
   const getPaginatedData = () => {
     const startIndex = page * perPage - perPage;
     const endIndex = startIndex + perPage;
     return __ministries.slice(startIndex, endIndex);
   };
-  const getPaginationGroup = () => {
-    let start = Math.floor((pages - 1) / pageLimit) * pageLimit;
-    return new Array(pageLimit).fill().map((__, idx) => start + idx + 1);
-  };
+  // const getPaginationGroup = () => {
+  //   let start = Math.floor((pages - 1) / pageLimit) * pageLimit;
+  //   return new Array(pageLimit).fill().map((__, idx) => start + idx + 1);
+  // };
 
   return (
     <div>
