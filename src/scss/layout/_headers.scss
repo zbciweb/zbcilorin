@@ -194,13 +194,6 @@
       }
     }
 
-<<<<<<< HEAD
-    // burger menu
-
-  
-
-=======
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     // The menu items and submenus
     .header__list {
       position: relative;
@@ -399,11 +392,7 @@
 .header {
   // Deals with transparency
   &.transparent {
-<<<<<<< HEAD
     background-color: rgba($color: #000000, $alpha: 0.4);
-=======
-    background-color: #000000d4;
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     @include transition;
   }
 
@@ -414,18 +403,9 @@
     @include transition;
 
     .header__mobile--icon span {
-<<<<<<< HEAD
-
-      // background-color: yellow;
       background-color: $accent-color;
     }
 
-
-=======
-      background-color: $accent-color;
-    }
-
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     .header__top-nav {
       .header__option {
         .desktop,
@@ -444,10 +424,6 @@
 
     .header__mobile--icon span {
       background-color: $accent-color;
-<<<<<<< HEAD
-      
-=======
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 

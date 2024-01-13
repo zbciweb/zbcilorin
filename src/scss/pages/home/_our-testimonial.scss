@@ -25,11 +25,7 @@
 
     @include respond(lg) {
       height: 100%;
-<<<<<<< HEAD
-      width: percentage(calc(5 / 12)); // 5 cols
-=======
       width: percentage((5 / 12)); // 5 cols
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 

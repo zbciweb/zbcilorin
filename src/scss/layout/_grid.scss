@@ -67,33 +67,20 @@
 
   .flex-sm-3 {
     @include respond(sm) {
-<<<<<<< HEAD
-      @debug grid(4);
-=======
       @include grid(4);
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
   .flex-sm-4 {
     @include respond(sm) {
-<<<<<<< HEAD
-      @debug grid(3);
-=======
       @include grid(3);
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
   .flex-sm-5 {
     @include respond(sm) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(5 / 12));
-      max-width: percentage(calc(5 / 12));
-=======
       flex: 0 0 percentage((5 / 12));
       max-width: percentage((5 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
@@ -105,61 +92,36 @@
 
   .flex-sm-7 {
     @include respond(sm) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(7 / 12));
-      max-width: percentage(calc(7 / 12));
-=======
       flex: 0 0 percentage((7 / 12));
       max-width: percentage((7 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
   .flex-sm-8 {
     @include respond(sm) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(8 / 12));
-      max-width: percentage(calc(8 / 12));
-=======
       flex: 0 0 percentage((8 / 12));
       max-width: percentage((8 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
   .flex-sm-9 {
     @include respond(sm) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(9 / 12));
-      max-width: percentage(calc(9 / 12));
-=======
       flex: 0 0 percentage((9 / 12));
       max-width: percentage((9 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
   .flex-sm-10 {
     @include respond(sm) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(10 / 12));
-      max-width: percentage(calc(10 / 12));
-=======
       flex: 0 0 percentage((10 / 12));
       max-width: percentage((10 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
   .flex-sm-11 {
     @include respond(sm) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(11 / 12));
-      max-width: percentage(calc(11 / 12));
-=======
       flex: 0 0 percentage((11 / 12));
       max-width: percentage((11 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
@@ -215,13 +177,8 @@
 
   .flex-md-5 {
     @include respond(md) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(5 / 12));
-      max-width: percentage(calc(5 / 12));
-=======
       flex: 0 0 percentage((5 / 12));
       max-width: percentage((5 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
@@ -233,61 +190,36 @@
 
   .flex-md-7 {
     @include respond(md) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(7 / 12));
-      max-width: percentage(calc(7 / 12));
-=======
       flex: 0 0 percentage((7 / 12));
       max-width: percentage((7 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
   .flex-md-8 {
     @include respond(md) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(8 / 12));
-      max-width: percentage(calc(8 / 12));
-=======
       flex: 0 0 percentage((8 / 12));
       max-width: percentage((8 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
   .flex-md-9 {
     @include respond(md) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(9 / 12));
-      max-width: percentage(calc(9 / 12));
-=======
       flex: 0 0 percentage((9 / 12));
       max-width: percentage((9 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
   .flex-md-10 {
     @include respond(md) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(10 / 12));
-      max-width: percentage(calc(10 / 12));
-=======
       flex: 0 0 percentage((10 / 12));
       max-width: percentage((10 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
   .flex-md-11 {
     @include respond(md) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(11 / 12));
-      max-width: percentage(calc(11 / 12));
-=======
       flex: 0 0 percentage((11 / 12));
       max-width: percentage((11 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
@@ -343,13 +275,8 @@
 
   .flex-lg-5 {
     @include respond(lg) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(5 / 12));
-      max-width: percentage(calc(5 / 12));
-=======
       flex: 0 0 percentage((5 / 12));
       max-width: percentage((5 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
@@ -361,61 +288,36 @@
 
   .flex-lg-7 {
     @include respond(lg) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(7 / 12));
-      max-width: percentage(calc(7 / 12));
-=======
       flex: 0 0 percentage((7 / 12));
       max-width: percentage((7 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
   .flex-lg-8 {
     @include respond(lg) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(8 / 12));
-      max-width: percentage(calc(8 / 12));
-=======
       flex: 0 0 percentage((8 / 12));
       max-width: percentage((8 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
   .flex-lg-9 {
     @include respond(lg) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(9 / 12));
-      max-width: percentage(calc(9 / 12));
-=======
       flex: 0 0 percentage((9 / 12));
       max-width: percentage((9 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
   .flex-lg-10 {
     @include respond(lg) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(10 / 12));
-      max-width: percentage(calc(10 / 12));
-=======
       flex: 0 0 percentage((10 / 12));
       max-width: percentage((10 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
   .flex-lg-11 {
     @include respond(lg) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(11 / 12));
-      max-width: percentage(calc(11 / 12));
-=======
       flex: 0 0 percentage((11 / 12));
       max-width: percentage((11 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
@@ -471,13 +373,8 @@
 
   .flex-xl-5 {
     @include respond(xl) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(5 / 12));
-      max-width: percentage(calc(5 / 12));
-=======
       flex: 0 0 percentage((5 / 12));
       max-width: percentage((5 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
@@ -489,61 +386,36 @@
 
   .flex-xl-7 {
     @include respond(xl) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(7 / 12));
-      max-width: percentage(calc(7 / 12));
-=======
       flex: 0 0 percentage((7 / 12));
       max-width: percentage((7 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
   .flex-xl-8 {
     @include respond(xl) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(8 / 12));
-      max-width: percentage(calc(8 / 12));
-=======
       flex: 0 0 percentage((8 / 12));
       max-width: percentage((8 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
   .flex-xl-9 {
     @include respond(xl) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(9 / 12));
-      max-width: percentage(calc(9 / 12));
-=======
       flex: 0 0 percentage((9 / 12));
       max-width: percentage((9 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
   .flex-xl-10 {
     @include respond(xl) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(10 / 12));
-      max-width: percentage(calc(10 / 12));
-=======
       flex: 0 0 percentage((10 / 12));
       max-width: percentage((10 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
   .flex-xl-11 {
     @include respond(xl) {
-<<<<<<< HEAD
-      flex: 0 0 percentage(calc(11 / 12));
-      max-width: percentage(calc(11 / 12));
-=======
       flex: 0 0 percentage((11 / 12));
       max-width: percentage((11 / 12));
->>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
     }
   }
 
