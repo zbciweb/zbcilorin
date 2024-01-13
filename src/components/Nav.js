@@ -54,11 +54,6 @@ const Nav = () => {
             >
 
 
-              {/* <li className="header__extra">
-                <div className="cta">
-                  <Link to={'/donations'} className="button button-block-sm">Donate</Link>
-                </div>
-              </li> */}
 
               <li className="header__list active"><Link to={'/'}>Home</Link></li>
 
