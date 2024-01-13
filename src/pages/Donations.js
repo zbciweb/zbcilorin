@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom'
 import User1 from "./../assets/images/user-1.jpg";
 
 const Donations = () => {
-  const dnatin = [{
-    name: "WMU Bus",
-    descriptioon: "Lorem ipsum dolor sit amor",
-    paymentOptions: [
-      { bankAccount: { accountNumber: "123456780", bankName: "Wema Bank", accountName: "Zoin Baptist Church Ilroin" }, paypal: true, stripe: true }
-    ]
+  // const dnatin = [{
+  //   name: "WMU Bus",
+  //   descriptioon: "Lorem ipsum dolor sit amor",
+  //   paymentOptions: [
+  //     { bankAccount: { accountNumber: "123456780", bankName: "Wema Bank", accountName: "Zoin Baptist Church Ilroin" }, paypal: true, stripe: true }
+  //   ]
 
-  }]
+  // }]
   return (
     <div>
 
