@@ -68,8 +68,13 @@
 
 // GRID
 @mixin grid($number) {
+<<<<<<< HEAD
   flex: 0 0 percentage(calc(100 / $number) / 100);
   max-width: percentage(calc(100 / $number) / 100);
+=======
+  flex: 0 0 percentage((100 / $number) / 100);
+  max-width: percentage((100 / $number) / 100);
+>>>>>>> 3a73b4a1196922b69ea63f4f0754000e171b6a9a
 }
 
 // $breakpoints
